@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:id="@+id/flash_ultimasDevolucoes_layout"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/flash_ultimasDevolucoes_cliente"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Cliente"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/flash_ultimasDevolucoes_rota"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Rota"
+        android:textSize="10sp"
+        android:textColor="@color/black"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/flash_ultimasDevolucoes_motivo"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/flash_ultimasDevolucoes_cliente"
+        android:text="Motivo"
+        android:textSize="10sp"
+        android:textColor="@color/black"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/flash_ultimasDevolucoes_datapedido"
+        android:layout_width="80dp"
+        android:layout_marginLeft="160dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/flash_ultimasDevolucoes_cliente"
+        android:text="Data pedido"
+        android:textSize="10sp"
+        android:textColor="@color/black"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/flash_ultimasDevolucoes_datadevolucao"
+        android:layout_width="80dp"
+        android:layout_marginLeft="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/flash_ultimasDevolucoes_cliente"
+        android:text="Devolução"
+        android:textSize="10sp"
+        android:textColor="@color/black"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/flash_ultimasDevolucoes_tipo"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/flash_ultimasDevolucoes_motivo"
+        android:text="Tipo"
+        android:textSize="10sp"
+        android:textColor="@color/black"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/flash_ultimasDevolucoes_caixas"
+        android:layout_width="80dp"
+        android:layout_marginLeft="160dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/flash_ultimasDevolucoes_motivo"
+        android:text="Caixas"
+        android:textSize="10sp"
+        android:textColor="@color/black"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/flash_ultimasDevolucoes_valor"
+        android:layout_width="80dp"
+        android:layout_marginLeft="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/flash_ultimasDevolucoes_motivo"
+        android:text="Valor"
+        android:textSize="10sp"
+        android:textColor="@color/black" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20px"
+        android:layout_below="@+id/flash_ultimasDevolucoes_valor"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

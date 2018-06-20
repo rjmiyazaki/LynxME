@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.clans:fab-1.4.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/fab-1.4.0.aar/e0554768f9733e94ec3cbad2d1351b1d/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/fab-1.4.0.aar/e0554768f9733e94ec3cbad2d1351b1d/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.clans/fab/1.4.0/d29ed7ce5e4c89aea7cdd0e4d56824040d371ac2/fab-1.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

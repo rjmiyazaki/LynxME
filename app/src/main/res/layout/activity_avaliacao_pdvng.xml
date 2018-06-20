@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/avaliacaoPDGNG_Toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentLeft="true"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:minHeight="?attr/actionBarSize"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <TextView
+        android:id="@+id/avaliacaoPDVNG_PerguntaInfoNumero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/avaliacaoPDGNG_Toolbar"
+        android:layout_marginTop="10dp"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/avaliacaoPDVNG_Pergunta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/avaliacaoPDVNG_PerguntaInfoNumero"
+        android:layout_marginTop="17dp"
+        android:text="TextView"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/avaliacaoPDVNG_botaoSim"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/avaliacaoPDVNG_Pergunta"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:background="@color/ligthBlue_A700"
+        android:drawableLeft="@drawable/ic_thumb_up_white_24dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Sim" />
+
+    <Button
+        android:id="@+id/avaliacaoPDVNG_botaoNao"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/avaliacaoPDVNG_botaoSim"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:background="@color/ligthBlue_A700"
+        android:drawableLeft="@drawable/ic_thumb_down_white_24dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Não" />
+
+    <Button
+        android:id="@+id/avaliacaoPDVNG_botao0"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/avaliacaoPDVNG_Pergunta"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/ligthBlue_A700"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Zero" />
+
+    <Button
+        android:id="@+id/avaliacaoPDVNG_botao1"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/avaliacaoPDVNG_Pergunta"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/ligthBlue_A700"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="1" />
+
+    <Button
+        android:id="@+id/avaliacaoPDVNG_botao25P1"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/avaliacaoPDVNG_Pergunta"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/ligthBlue_A700"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="25%" />
+
+    <Button
+        android:id="@+id/avaliacaoPDVNG_botao20P2"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/avaliacaoPDVNG_Pergunta"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/ligthBlue_A700"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="20%" />
+
+
+    <Button
+        android:id="@+id/avaliacaoPDVNG_botao2"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/avaliacaoPDVNG_Pergunta"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/ligthBlue_A700"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="2" />
+
+    <Button
+        android:id="@+id/avaliacaoPDVNG_botao3"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/avaliacaoPDVNG_Pergunta"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/ligthBlue_A700"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="3" />
+
+    <Button
+        android:id="@+id/avaliacaoPDVNG_botao4"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/avaliacaoPDVNG_Pergunta"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/ligthBlue_A700"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="4" />
+
+    <Button
+        android:id="@+id/avaliacaoPDVNG_botao5"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/avaliacaoPDVNG_Pergunta"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="230dp"
+        android:background="@color/ligthBlue_A700"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="5" />
+
+    <Button
+        android:id="@+id/avaliacaoPDVNG_botao50P1"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/avaliacaoPDVNG_Pergunta"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="230dp"
+        android:background="@color/ligthBlue_A700"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="50%" />
+
+    <Button
+        android:id="@+id/avaliacaoPDVNG_botao80P2"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/avaliacaoPDVNG_Pergunta"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="230dp"
+        android:background="@color/ligthBlue_A700"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="80%" />
+
+    <Button
+        android:id="@+id/avaliacaoPDVNG_botao6"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/avaliacaoPDVNG_Pergunta"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="230dp"
+        android:background="@color/ligthBlue_A700"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="6" />
+
+    <Button
+        android:id="@+id/avaliacaoPDVNG_botao100P1"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/avaliacaoPDVNG_Pergunta"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="230dp"
+        android:background="@color/ligthBlue_A700"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="100%" />
+
+    <Button
+        android:id="@+id/avaliacaoPDVNG_botao7"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/avaliacaoPDVNG_Pergunta"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="230dp"
+        android:background="@color/ligthBlue_A700"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="7" />
+
+    <Button
+        android:id="@+id/avaliacaoPDVNG_botao8"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/avaliacaoPDVNG_Pergunta"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="230dp"
+        android:background="@color/ligthBlue_A700"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="8" />
+
+    <Button
+        android:id="@+id/avaliacaoPDVNG_botao9"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/avaliacaoPDVNG_Pergunta"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="230dp"
+        android:background="@color/ligthBlue_A700"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="9" />
+
+    <Button
+        android:id="@+id/avaliacaoPDVNG_botao10"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/avaliacaoPDVNG_Pergunta"
+        android:layout_marginTop="400dp"
+        android:background="@color/ligthBlue_A700"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="10" />
+
+    <Button
+        android:id="@+id/avaliacaoPDVNG_botao0P"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/avaliacaoPDVNG_Pergunta"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:background="@color/ligthBlue_A700"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="ZERO" />
+
+    <Button
+        android:id="@+id/avaliacaoPDVNG_botao50P"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/avaliacaoPDVNG_botaoSim"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@color/ligthBlue_A700"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="50%" />
+
+    <Button
+        android:id="@+id/avaliacaoPDVNG_botao100P"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/avaliacaoPDVNG_botaoSim"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:background="@color/ligthBlue_A700"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="100%" />
+
+</RelativeLayout>

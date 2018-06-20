@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_confirma_item"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentLeft="true"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:minHeight="?attr/actionBarSize"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txt_confirma_item_codigo_prompt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Código:"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/txt_confirma_item_codigo_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="100023"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="normal" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:background="@color/azure2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txt_confirma_item_descricao_prompt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Descrição:"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/txt_confirma_item_descricao_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="Nome do produto"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="normal" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txt_confirma_item_unidade_prompt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Unidade:"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/txt_confirma_item_unidade_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="UN"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="normal" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:background="@color/azure2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txt_confirma_item_estoque_prompt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Estoque:"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/txt_confirma_item_estoque_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="100"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="normal" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txt_confirma_item_valor_unitario_prompt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Valor unitário(R$):"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/txt_confirma_item_valor_unitario_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="0,00"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="normal" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        android:background="@color/azure2">
+
+        <TextView
+            android:id="@+id/txt_confirma_item_tabelapreco_prompt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tabela de preço:"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:textStyle="normal" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/azure2"
+            android:popupBackground="@color/azure2"
+            android:id="@+id/spn_confirma_item_tabelapreco_info" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_confirma_item_quantidade_prompt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quantidade:"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/txt_confirma_item_quantidade_info"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:text=""
+            android:gravity="right"
+            android:layout_gravity="bottom"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:inputType="number"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        android:background="@color/azure2">
+
+        <TextView
+            android:id="@+id/txt_confirma_item_tipodesconto_prompt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tipo do desconto:"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:textStyle="normal" />
+
+        <Spinner
+            android:id="@+id/spn_confirma_item_tipodesconto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/azure2"
+            android:popupBackground="@color/azure2"
+            android:layout_alignParentRight="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_confirma_item_desconto_prompt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Desconto:"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/txt_confirma_item_desconto_info"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="right"
+            android:text=""
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/azure2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_confirma_item_subtotal_prompt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subtotal(R$):"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/txt_confirma_item_subtotal_info"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/flash_campanha_categoria"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Categoria"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/flash_campanha_percentual"
+        android:layout_alignParentRight="true"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="%"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/flash_campanha_meta"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/flash_campanha_categoria"
+        android:gravity="right"
+        android:text="Meta"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/flash_campanha_realizado"
+        android:layout_marginLeft="80dp"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="Realizado"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_below="@+id/flash_campanha_categoria" />
+
+    <TextView
+        android:id="@+id/flash_campanha_falta"
+        android:layout_marginLeft="160dp"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="Falta"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_below="@+id/flash_campanha_categoria" />
+
+    <TextView
+        android:id="@+id/flash_campanha_diario"
+        android:layout_marginLeft="240dp"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="Diário"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_below="@+id/flash_campanha_categoria" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20px"
+        android:layout_below="@+id/flash_campanha_meta"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

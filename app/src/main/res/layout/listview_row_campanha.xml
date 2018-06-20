@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <TextView
+        android:id="@+id/idRowCampanha_NomeLinha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="Linha"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/idRowCampanha_LabelMeta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/idRowCampanha_NomeLinha"
+        android:text="Meta:"
+        android:textColor="#000000"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/idRowCampanha_Meta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idRowCampanha_NomeLinha"
+        android:layout_marginLeft="2sp"
+        android:layout_toRightOf="@+id/idRowCampanha_LabelMeta"
+        android:gravity="right"
+        android:text="000"
+        android:textColor="#000000"
+        android:textSize="10sp"
+        android:width="30sp" />
+
+    <TextView
+        android:id="@+id/idRowCampanha_LabelRealizado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idRowCampanha_NomeLinha"
+        android:layout_marginLeft="10sp"
+        android:layout_toRightOf="@+id/idRowCampanha_Meta"
+        android:text="Realizado:"
+        android:textColor="#000000"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/idRowCampanha_Realizado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idRowCampanha_NomeLinha"
+        android:layout_marginLeft="2sp"
+        android:layout_toRightOf="@+id/idRowCampanha_LabelRealizado"
+        android:gravity="right"
+        android:text="000"
+        android:textColor="#000000"
+        android:textSize="10sp"
+        android:width="30sp" />
+
+    <TextView
+        android:id="@+id/idRowCampanha_LabelFaltantes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idRowCampanha_NomeLinha"
+        android:layout_marginLeft="10sp"
+        android:layout_toRightOf="@+id/idRowCampanha_Realizado"
+        android:text="Faltantes:"
+        android:textColor="#000000"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/idRowCampanha_Faltantes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idRowCampanha_NomeLinha"
+        android:layout_marginLeft="2sp"
+        android:layout_toRightOf="@+id/idRowCampanha_LabelFaltantes"
+        android:gravity="right"
+        android:text="000"
+        android:textColor="#000000"
+        android:textSize="10sp"
+        android:width="30sp" />
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '27.0.3'
+
+    defaultConfig {
+        applicationId "br.com.lynx"
+        minSdkVersion 19
+        targetSdkVersion 25
+        versionCode 1
+        versionName "Arlequina"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.android.support:cardview-v7:25.3.1'
+    compile 'com.android.support:recyclerview-v7:25.3.1'
+
+    compile('com.mikepenz.materialdrawer:library:2.8.2@aar') {
+        transitive = true
+    }
+
+    compile 'com.melnykov:floatingactionbutton:1.3.0'
+    compile 'com.github.shell-software:fab:1.0.5'
+    compile 'com.github.clans:fab:1.4.0'
+
+    compile 'me.drakeet.materialdialog:library:1.2.2'
+    compile 'com.jjoe64:graphview:4.0.1'
+    compile 'net.danlew:android.joda:2.9.4.3'
+
+    compile 'com.scalified:fab:1.1.3'
+}

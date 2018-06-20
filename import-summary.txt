@@ -1,0 +1,678 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* $tf\
+* $tf\0\
+* $tf\0\020ab4b0-86fb-422c-b2fe-8c81275aa0db.gz
+* $tf\0\063b1600-e8bf-4e28-8011-79f39de85dd1.gz
+* $tf\0\08c92860-555b-4570-a88b-e9bf49b6a969.gz
+* $tf\0\0a82a910-765f-4c95-a7e9-64a677a9ee43.gz
+* $tf\0\0af43430-f17a-49a8-bbe2-520faab2b981.gz
+* $tf\0\0f42aaa0-80ee-4f71-9867-42f232f99b13.gz
+* $tf\0\1f641b60-308e-47d5-8c91-893732a4b27b.gz
+* $tf\0\307d2230-814d-4193-bde3-e02ad3feca88.gz
+* $tf\0\30b9d390-a0e1-4643-901d-4a7234f5f867.gz
+* $tf\0\3b703300-687f-4a94-910e-cdfcf41a3e1e.gz
+* $tf\0\40890ab0-a862-408c-b9bc-0336094d52b0.gz
+* $tf\0\56618530-88e4-430c-abfe-f6b40376d14a.gz
+* $tf\0\5acdd440-ce87-4f76-930b-673c795c4f3d.gz
+* $tf\0\5de50cf0-2651-4dec-a59a-2721a036ec82.gz
+* $tf\0\612cd050-4f68-4b7c-8d00-54b6e163248e.gz
+* $tf\0\73741b60-dd90-462f-bdf9-614f1737cd0e.gz
+* $tf\0\742286c0-8388-4c2a-8f20-8a55bfb07d59.gz
+* $tf\0\7439cf00-c72b-47d7-8844-5372fbe52532.gz
+* $tf\0\762c6380-7773-4a02-878c-f75ee5af8646.gz
+* $tf\0\8c3088b0-e737-4544-9596-9a93377f31fb.gz
+* $tf\0\8e58c3a0-85fa-4ea1-8fb5-7d791c354c33.gz
+* $tf\0\8ee11d20-a086-4dab-bf64-36f766241d93.gz
+* $tf\0\95b34a60-e3ee-431a-bcc8-0548543003e1.gz
+* $tf\0\9664ff90-289d-429a-91a6-5d4ff4560837.gz
+* $tf\0\a42f8d00-66f6-469f-8d68-745c934a6522.gz
+* $tf\0\a67b0760-6f2b-422a-9348-5581027506f7.gz
+* $tf\0\a6e7caf0-07c9-4055-9fc2-f2ce66a78824.gz
+* $tf\0\b3e3ffb0-8710-429e-a14d-4b00f16e7390.gz
+* $tf\0\b43d2db0-aa9a-433f-8f46-c705434554f1.gz
+* $tf\0\c8e34570-9d8a-430c-b04a-a91940f29961.gz
+* $tf\0\d269f280-043f-4e47-bb2d-3277b0017a48.gz
+* $tf\0\d4ea9350-9b7d-407e-a82c-c2807c66e0f7.gz
+* $tf\0\dee54300-934b-435f-a3e3-e8069304078a.gz
+* $tf\0\e1670370-88e5-45df-88c0-eac5fcb346eb.gz
+* $tf\0\e508bad0-e756-41b6-84e1-f3fec91ea019.gz
+* $tf\0\e88f8370-3356-4ae3-abf3-640d7b0c4425.gz
+* $tf\0\e88fbfa0-6be3-416c-89af-a7265116693f.gz
+* $tf\0\f00b6900-22a0-4369-a801-33fe23344488.gz
+* $tf\0\f79b6370-c66c-4ff8-8f5a-b15c378ec609.gz
+* $tf\0\fe6b4f90-52a9-457d-bd9a-ff43a7299af7.gz
+* $tf\0\ff98b120-aed1-4d78-81a7-95a094823a52.gz
+* $tf\10\
+* $tf\10\03a031ca-3ef5-4377-837b-64be2b4815d8.gz
+* $tf\10\18fad80a-b07e-49dc-b6bc-1bfa07b152de.gz
+* $tf\10\1c02464a-8538-4789-bff0-6143c20c8e0f.gz
+* $tf\10\1ca2363a-1b7a-4708-988a-686738c35857.gz
+* $tf\10\21be441a-530e-44a5-9503-cd062618d169.gz
+* $tf\10\2fdf460a-a62b-478a-9204-00a24b3732ae.gz
+* $tf\10\348d2c5a-769b-4178-a358-743079142ae9.gz
+* $tf\10\3d08b72a-e31c-4165-839f-229dd56fc923.gz
+* $tf\10\3f8405ea-e446-47e6-9288-780a10217f91.gz
+* $tf\10\43dd2f1a-c6b5-4a2b-96fc-002967193d0d.gz
+* $tf\10\4707e07a-9a43-4b19-b344-039356f273c1.gz
+* $tf\10\4d0f9f9a-6258-4882-b0e1-fda29c526f3b.gz
+* $tf\10\50d116ea-ea4e-40e4-9a25-ef2728c76a0a.gz
+* $tf\10\51fc9f4a-8baa-44db-8eef-d85aa864a739.gz
+* $tf\10\5896e80a-dc2d-4dc8-a445-e3323e8eca7d.gz
+* $tf\10\60e776aa-bd59-46df-8a75-3a67d8fb8f52.gz
+* $tf\10\6b02ad4a-c70d-4278-a504-fae98073c4e5.gz
+* $tf\10\7d5ec91a-7622-4ae5-8024-30ca85f56131.gz
+* $tf\10\8b09868a-256d-4eea-a047-c89f84cf43d2.gz
+* $tf\10\9bb07f5a-e1ec-4b23-99bf-94c074879cb0.gz
+* $tf\10\ad13c03a-7f92-4687-9d4e-a1dd592d1a8c.gz
+* $tf\10\af4db9aa-8796-4623-bc3e-5673601567f7.gz
+* $tf\10\b59ce68a-379c-44c9-a384-34a91dfc154f.gz
+* $tf\10\b88aae3a-8e1d-4e4d-95c0-8780b7e8f4c3.gz
+* $tf\10\bd58adba-fc3f-41e5-9079-676a10864ba3.gz
+* $tf\10\beca004a-b91f-4fcd-a8df-aa70bfe82109.gz
+* $tf\10\c0fd889a-4e13-4265-95df-f51b27e772a3.gz
+* $tf\10\c513e47a-454a-4718-9f43-5621a87f7e00.gz
+* $tf\10\cd02534a-373c-40e4-b06e-98acab4e6aea.gz
+* $tf\10\d14d617a-1bb9-4763-b388-cc45ff562d26.gz
+* $tf\10\d5657cea-89be-4e3a-8c04-7871da4c388c.gz
+* $tf\10\d63fd39a-70cd-4397-a462-4127a83f39be.gz
+* $tf\10\d815bf6a-e7a2-4735-a3c4-a5df41362807.gz
+* $tf\10\d9aff4fa-9f06-4ff1-91f0-864a63df8fe7.gz
+* $tf\10\dd494e4a-1592-4447-90bc-16f477ad57d1.gz
+* $tf\10\de9e192a-a090-49a6-8e89-66a5fe8e055a.gz
+* $tf\10\e906960a-3f49-499e-ac5c-aa763c3f3506.gz
+* $tf\10\eedac6da-4eb3-441e-92d6-3118e0977898.gz
+* $tf\11\
+* $tf\11\021044ab-70da-481b-a99e-6017d90510a1.gz
+* $tf\11\10194b9b-5378-411f-8b04-663ee1d71321.gz
+* $tf\11\167fd9bb-f949-40ed-a89e-9f6c6066ea1d.gz
+* $tf\11\1a06a6bb-7be8-4bfd-a8c0-ee0aacf8aa1c.gz
+* $tf\11\1ab513bb-c49e-4b0a-a1ae-ec5956cfac95.gz
+* $tf\11\258ae1ab-eb07-4fca-a780-eea26f9ff4a3.gz
+* $tf\11\314e57db-dc82-428b-9231-3d84c30cb8d8.gz
+* $tf\11\3183c95b-bf23-439d-b1d3-cc3734db90cb.gz
+* $tf\11\31d0c54b-ed7d-43bc-aecc-7cd1d4c30636.gz
+* $tf\11\32d1460b-a98f-4091-9c58-008198603fcb.gz
+* $tf\11\3d0a361b-8ecb-4ae7-9c84-17f046905c92.gz
+* $tf\11\45fb7a8b-9f09-4a3c-9e4d-2131768ae4ad.gz
+* $tf\11\522dcf7b-b8e9-41b0-9b0f-2675b29555e1.gz
+* $tf\11\594e233b-2e00-496f-ba8c-e5340d656334.gz
+* $tf\11\600cf2cb-a71b-4132-9bd3-37c7ee64c2c2.gz
+* $tf\11\616ef69b-1eff-48e2-8955-442a9c646882.gz
+* $tf\11\62c9a22b-1add-4d92-b54e-6fb4f02d12ef.gz
+* $tf\11\687f36fb-9fb9-4e81-bfc9-ee0a77f668a1.gz
+* $tf\11\6aa3b67b-8b52-427c-bd99-3e6ea0dabda6.gz
+* $tf\11\6f2231eb-f21e-4c34-86be-576c4b0a0ebf.gz
+* $tf\11\70ca73cb-c082-44e5-9e5a-59a9b0716930.gz
+* $tf\11\79a1b85b-17fd-4d75-8720-4a358bb80fdc.gz
+* $tf\11\a58b03ab-601d-4c13-ab47-f3d73b70af39.gz
+* $tf\11\a6adadbb-c287-4cfa-a392-a858c6adbd93.gz
+* $tf\11\a703f1eb-3cf3-4bde-8e97-c83c295a3353.gz
+* $tf\11\abdc214b-712d-45e4-8fea-3f7724898c25.gz
+* $tf\11\b7f083eb-5104-4f99-b610-ffc4d762f841.gz
+* $tf\11\bcbd33bb-43ae-453b-ac11-0fdbcc6525e5.gz
+* $tf\11\bfd73d1b-9fc5-4c7a-8f2d-14e507231df3.gz
+* $tf\11\c157f93b-a1a8-4a40-9ecc-084379c0cff5.gz
+* $tf\11\c97e1d0b-9e92-49a5-b8fe-9a2d2dd75874.gz
+* $tf\11\d839dbab-f8ac-432b-8d5a-4d979b7dba91.gz
+* $tf\11\d986b64b-c92d-4c8a-939a-6b6ee9e737dd.gz
+* $tf\11\df1cddbb-6d1e-4598-9b3b-ac9fe9b34db3.gz
+* $tf\11\e8a387ab-7bd7-49fb-a57a-46b6e78603fb.gz
+* $tf\11\fb818a7b-f6a4-4ff9-9e15-47c62616995c.gz
+* $tf\12\
+* $tf\12\0158a6dc-7a1f-4f5f-8cb5-c3b24e460619.gz
+* $tf\12\016c934c-8e74-4c8e-aafd-c5f726513404.gz
+* $tf\12\060e1d0c-2412-476c-8b08-e5ed49098140.gz
+* $tf\12\068c5aec-cd21-44cd-8396-6af6374c415a.gz
+* $tf\12\35372c0c-ecf4-438a-ba6a-236c1564027b.gz
+* $tf\12\4018e2dc-a955-42c5-9e0f-9e45284db409.gz
+* $tf\12\423a8d9c-8410-4302-ae11-4b40d28fb0fe.gz
+* $tf\12\472552dc-1d72-4838-91d8-6751a279816d.gz
+* $tf\12\5235c80c-034c-4082-a725-a4198778bdd5.gz
+* $tf\12\53584e7c-edb4-4d61-aeec-fcb7dee11bbf.gz
+* $tf\12\557026fc-e17a-4435-8d92-37cb587aba55.gz
+* $tf\12\6e585dec-a578-49ce-a12d-fb52acf55832.gz
+* $tf\12\789305fc-c8fd-4216-95f1-5c3c945e0bd0.gz
+* $tf\12\79a18c7c-4d8b-46eb-9229-46e8b83d403f.gz
+* $tf\12\7ba258ac-aae1-44b2-b2b3-9ad269a089b3.gz
+* $tf\12\7fbc4eec-4d37-46d8-9b65-e889a6736394.gz
+* $tf\12\81157bac-190c-4b31-b3f7-f614ac54961c.gz
+* $tf\12\8d7782ec-9b31-4c2a-9a3a-66169c97cf24.gz
+* $tf\12\8d9f7bfc-61da-40fc-8f7a-4c5043865b2d.gz
+* $tf\12\90996c0c-cbe7-406b-a0ca-d2b253da737b.gz
+* $tf\12\b5d8b3fc-6296-4b43-88ec-594396ebd1e0.gz
+* $tf\12\c1c6546c-f582-454a-9979-f280069a2fca.gz
+* $tf\12\c318114c-dd24-4b64-9515-22928080a54b.gz
+* $tf\12\c4925c6c-131b-4dea-a1e2-6fb09bf96e90.gz
+* $tf\12\d635e9ac-f2f0-4756-88a8-a42953baac19.gz
+* $tf\12\dc3c8afc-61e0-467d-ab28-1be472b105be.gz
+* $tf\12\f23805fc-cc31-44e0-ae25-5d593f750b8d.gz
+* $tf\12\f49113ac-c34a-49b1-b09d-e11f38c75162.gz
+* $tf\12\ffe6ed6c-95f3-4f42-9d1c-40dd52a82d8e.gz
+* $tf\13\
+* $tf\13\096c2a4d-b0c2-49c3-bceb-b3d41bba37e3.gz
+* $tf\13\0e4eefed-e286-4db7-820e-9459f5f69b52.gz
+* $tf\13\1068e31d-249e-43f2-8487-a606528f4105.gz
+* $tf\13\1481c53d-271f-4e34-a8e4-f929ffc7024c.gz
+* $tf\13\3540260d-d43a-4fb7-bd7a-5214fb9da423.gz
+* $tf\13\38536ced-9476-4f6e-96bf-9f785cf5f4e6.gz
+* $tf\13\4b8cfd2d-1e43-413d-af58-2ccee0784703.gz
+* $tf\13\54fc8a5d-2f66-45bd-8afa-0898e734d1df.gz
+* $tf\13\6eb0b91d-d808-4000-b91d-ca10436a39cb.gz
+* $tf\13\7377f1bd-6295-437d-aeaa-183009a7cfd3.gz
+* $tf\13\76b3512d-d398-428f-ad30-2d6d8be44d2d.gz
+* $tf\13\76f628dd-2c1b-4616-8d52-6e6d23e13fa7.gz
+* $tf\13\778ca33d-d01d-48f1-88a4-99bb2f1390ad.gz
+* $tf\13\79e6f6dd-ccd1-4c78-85bf-228e36c346c8.gz
+* $tf\13\7a73eafd-497a-4673-a71d-ac610da5863b.gz
+* $tf\13\826614fd-3dc6-4be9-a005-b2459de5622c.gz
+* $tf\13\8500653d-0465-4fd5-8df2-778ac4e4f899.gz
+* $tf\13\863cc71d-d72f-4138-8f75-c676ea9466d6.gz
+* $tf\13\86b6d15d-da4b-4131-a184-3d924b605106.gz
+* $tf\13\8f2216cd-d51d-46e3-bf98-55cb6f56fdab.gz
+* $tf\13\9e02ba6d-f47f-43d7-895a-041911330101.gz
+* $tf\13\a95b3b9d-1ed6-4380-8a44-2fb1ef6e4079.gz
+* $tf\13\aa03e7fd-60ee-4b05-ae05-31a10ced9b5e.gz
+* $tf\13\b3c0733d-1d85-440a-8f9e-7032791cd45c.gz
+* $tf\13\bd91b2ad-4b62-4704-9a2c-ec93b995b284.gz
+* $tf\13\c912e1ad-98c1-4c1e-916a-afa643f1caa0.gz
+* $tf\13\d38ec5fd-fc54-4ae8-84a2-013f90f85e01.gz
+* $tf\13\d55ff10d-1fc9-4c6a-9fe8-4724d7152a2d.gz
+* $tf\13\d7ef141d-b9cf-4c31-bbe1-c652ebf5d106.gz
+* $tf\13\d7f0af3d-e9d3-4ccf-9742-dc66ebb3c1f2.gz
+* $tf\13\d8a67f0d-a795-41e1-b11c-017afb0830a8.gz
+* $tf\13\e470d07d-19bf-4af3-b292-e72a36aa2c4e.gz
+* $tf\13\ea5bc21d-b780-4626-958c-fc20fcc68a3a.gz
+* $tf\13\f6dcc1fd-281c-4da7-8642-e22d4985ceda.gz
+* $tf\13\fe67fa1d-c22b-44e7-a6c0-3263567cb1ac.gz
+* $tf\13\fe8b2fdd-0944-406f-84cd-dd79e578bedd.gz
+* $tf\13\ffaca40d-bb79-4f2b-9de9-373936c1c3f8.gz
+* $tf\14\
+* $tf\14\0ecf9afe-e28c-494d-990b-ce56d91ea490.gz
+* $tf\14\10d91bbe-f913-4c02-b5fd-3797bd379783.gz
+* $tf\14\19bb5c3e-72e9-4039-9383-cf048808c724.gz
+* $tf\14\22379c8e-3d00-4419-8c1b-d0a3ca34059a.gz
+* $tf\14\258e2c4e-da5e-4a51-86af-07e7fc478994.gz
+* $tf\14\29368bce-6b5f-4636-8cf4-a00dcb6f2058.gz
+* $tf\14\2bba4a3e-34f3-46f9-987a-5a2c58dab1cf.gz
+* $tf\14\2e735dae-5a40-4af2-a0b6-094e000146eb.gz
+* $tf\14\3063f1fe-6005-4295-9787-49df892d1ded.gz
+* $tf\14\39a4469e-a5bc-4ae5-bd30-03f0bcb5ca7f.gz
+* $tf\14\42e550ee-15a1-44f7-9999-7ea2e92a0e74.gz
+* $tf\14\63f1240e-5471-46a5-bda5-01d3389e41f7.gz
+* $tf\14\70a2acbe-51a8-44ff-b998-83a855d82d8d.gz
+* $tf\14\862e0bbe-ea9d-4860-8a3b-91a9fb99f3e0.gz
+* $tf\14\984cd83e-988a-47ab-83dd-2e44b54cbba4.gz
+* $tf\14\99bde5fe-1e63-417f-8569-88db302252cf.gz
+* $tf\14\99dda9fe-9e2c-4d24-b64f-f19f11732054.gz
+* $tf\14\a20bf9ae-b640-452b-81c9-8538b443cedf.gz
+* $tf\14\a3aa3f8e-627c-494c-8292-7d016da42e17.gz
+* $tf\14\ada45a5e-9a86-4d0c-adb8-c30ea345350d.gz
+* $tf\14\b168e06e-a604-4c90-a601-1a11d539920d.gz
+* $tf\14\c006872e-aef4-43e9-a5a6-be205ae3d1b0.gz
+* $tf\14\cafd0dde-3b84-45ac-ba1e-d8171f2d862d.gz
+* $tf\14\cbe6fb7e-6f07-4971-90a6-cdd9fba21144.gz
+* $tf\14\d449840e-7048-4cba-a343-e866de157053.gz
+* $tf\14\d562f2de-79bf-4535-b96b-f47a9a0ba20d.gz
+* $tf\14\d724cece-21c5-4dd5-940d-75b61ae55433.gz
+* $tf\14\d88fa9ae-d201-4f31-8bf0-6f793f6c504a.gz
+* $tf\14\dd8fbc2e-6973-43a1-8415-09fe37200e08.gz
+* $tf\14\de5a1e4e-7e69-48cd-8279-434e0f4e27b9.gz
+* $tf\14\e2519f4e-7c16-4e99-91d7-92b06ec81411.gz
+* $tf\14\e366c76e-7542-42dc-a492-437a34943b06.gz
+* $tf\14\e68b74ee-a6b9-4a26-8d95-10b9e808512f.gz
+* $tf\15\
+* $tf\15\0461098f-43ca-4094-be6f-2daf7b5908d7.gz
+* $tf\15\04d4783f-fb29-42d4-9680-67ff0be58cee.gz
+* $tf\15\0ec20fbf-ccdc-4532-be4d-00abc7d665cb.gz
+* $tf\15\2400267f-1330-4997-9dce-dbb479db8fb9.gz
+* $tf\15\2ad3e2ef-480a-4123-8f2d-ef80c81876e1.gz
+* $tf\15\2fb88ccf-b1da-4603-af65-2c7f55ccfa8a.gz
+* $tf\15\3344365f-de4c-4f49-acec-e2e14eadc28a.gz
+* $tf\15\37930cdf-f37a-4365-af65-9611a0be2d9c.gz
+* $tf\15\3c3f9ebf-7110-449a-8724-c5cf768bfb98.gz
+* $tf\15\4ac9060f-f4f6-4f62-96fc-8de55108215e.gz
+* $tf\15\52d3b63f-8310-4734-a3dd-de173936c988.gz
+* $tf\15\5d4fd30f-5f41-42e7-bc96-79aa449f9924.gz
+* $tf\15\5f402f9f-31ba-4595-acb2-4231aa98f556.gz
+* $tf\15\68c1294f-762f-44b0-9047-0faac73bfc22.gz
+* $tf\15\7227fbdf-083f-458d-a335-8b526f9583f4.gz
+* $tf\15\81de800f-b0d8-445b-872a-991ebdc9a347.gz
+* $tf\15\83cb786f-9d5e-4dd6-b7fe-ceebc86d959b.gz
+* $tf\15\8655fc5f-ee61-427c-a999-ecb00e971f2d.gz
+* $tf\15\8931993f-fb00-4b80-8bd4-a75f3aa2a8f7.gz
+* $tf\15\8a9a6cbf-445b-45a7-8cb0-8ef7f0d184d5.gz
+* $tf\15\8cf2b27f-026f-4331-a6eb-aef5348fc2c9.gz
+* $tf\15\a66d8b7f-5bd4-470d-a0eb-6ab14d415325.gz
+* $tf\15\a87eaf0f-9ad1-4c1c-8cdd-a50b750b6d6a.gz
+* $tf\15\aa39130f-4f0c-476d-8af2-93898139a7ef.gz
+* $tf\15\af854ecf-ffb3-4888-b491-7d22cfa8fdc4.gz
+* $tf\15\b17348df-04f1-408b-ac79-f7c6eec2e2ea.gz
+* $tf\15\bddb637f-c035-42ef-8252-d3b1503722d2.gz
+* $tf\15\c3e3500f-c96a-44c7-8ead-1efabbb8a6ae.gz
+* $tf\15\d61f63df-576f-4535-848a-95b4f16a5bcc.gz
+* $tf\15\dba1d0df-1573-4d65-b4bf-ac7a703cb655.gz
+* $tf\15\f8b9ea2f-84a5-4b5c-bea7-30043db592cc.gz
+* $tf\1\
+* $tf\1\0009be01-66e0-4d64-a745-e7bbf123e833.gz
+* $tf\1\01373081-4347-48e5-9d8b-ddcc4ff6f0fb.gz
+* $tf\1\094da791-377f-4103-b761-d9a5b4b234b0.gz
+* $tf\1\194c9531-928a-4c28-b6ae-9b37711eaca0.gz
+* $tf\1\1b5624a1-4aef-4d1c-82d9-b966e782e90f.gz
+* $tf\1\1f49d901-9157-4e44-a062-577d6e06a35a.gz
+* $tf\1\1f57d2c1-c50c-4a3c-9e68-22879a2c03e1.gz
+* $tf\1\240af301-08bc-4871-9478-b7e996a1bbc2.gz
+* $tf\1\262d3941-41c2-4162-bee5-e67377d93abe.gz
+* $tf\1\3358f8a1-ea67-4f45-bbb2-63bc32a311b0.gz
+* $tf\1\336d2331-1b55-4417-bae0-4af1c4e6dc29.gz
+* $tf\1\3a8c6661-69e3-4216-a9b3-c38632f03676.gz
+* $tf\1\3fa36471-bbb1-48ac-9d49-e42fb9f4b9bb.gz
+* $tf\1\4015a731-91a0-44ca-bcd6-d1f72944650f.gz
+* $tf\1\409fed51-53a1-45e9-b75b-83f03aa4d4df.gz
+* $tf\1\4654e921-8ade-4667-8c93-06d1da3c0162.gz
+* $tf\1\52f1d9f1-a0f3-4093-8dfc-7a86c7aab310.gz
+* $tf\1\67995031-4f04-4b5d-be7f-1c846fc8d235.gz
+* $tf\1\685f44a1-88e8-403f-8496-6b8d527ab34d.gz
+* $tf\1\68e1ac71-4c7b-4036-a6b2-ae8121d5e4a3.gz
+* $tf\1\74e14381-393b-4682-8bc7-abcd0ff09a9d.gz
+* $tf\1\7d914351-3ecd-4448-a132-9a9e2bfd3c7b.gz
+* $tf\1\7e7c12e1-dc95-4889-8f3d-995278c852b3.gz
+* $tf\1\81639591-7f70-483f-9a1f-9cc78e8b61dd.gz
+* $tf\1\8cce5c61-2ec2-4966-96ca-28d0947422bc.gz
+* $tf\1\95f8a261-15ca-4540-9a66-4dfa79f5d677.gz
+* $tf\1\a50c5a21-5a1e-403c-bd11-6f58327db650.gz
+* $tf\1\b6e96541-7138-4b08-8a8e-1dec140f89e4.gz
+* $tf\1\b81b5bc1-3590-4029-bd43-ff9eb02d75b2.gz
+* $tf\1\c04e3ad1-d011-4764-b2d2-b0ce51ef3b88.gz
+* $tf\1\c28d4431-feeb-4006-8a2d-ad99b203e0c9.gz
+* $tf\1\c2f73311-266d-4f55-ba5e-430edaff7aca.gz
+* $tf\1\cec999d1-6315-4987-ba03-1ac32a62700f.gz
+* $tf\1\e0f63871-2b9b-44de-868d-e121881a253a.gz
+* $tf\1\e33d0df1-313c-45e7-9a23-2d2f0f2e8801.gz
+* $tf\1\f5c10ca1-405b-4834-83c1-7fd119ff69cf.gz
+* $tf\1\fd5f7ce1-7632-4766-80b3-ce8d13002135.gz
+* $tf\2\
+* $tf\2\03a4a502-becd-4d69-b200-a1581ceaced5.gz
+* $tf\2\22442b92-d9fe-4deb-9942-c94413869d94.gz
+* $tf\2\329bff62-ff01-42a7-ae47-b53b4f50475c.gz
+* $tf\2\35444422-82e9-4995-9460-a55da171b666.gz
+* $tf\2\3d1c4d02-efcc-40b7-9254-22df4bfbf430.gz
+* $tf\2\43e6a052-022b-4928-ab28-2c74938fdba8.gz
+* $tf\2\454404e2-f26f-478c-8759-a27bf5812913.gz
+* $tf\2\4f487112-3b5e-4994-a67c-686635ad4bd0.gz
+* $tf\2\50217bb2-d926-49d1-8ed6-534fa7c79fb5.gz
+* $tf\2\5259c392-4796-47c5-957a-52b0a13725dd.gz
+* $tf\2\52abde72-485b-428c-bf7e-754de8ccbb73.gz
+* $tf\2\566dde92-153e-4b00-956d-44892b151847.gz
+* $tf\2\6512c342-dfe5-4a96-99d2-dc0d755ef9c4.gz
+* $tf\2\712b24e2-863d-45be-868e-335bc2f52283.gz
+* $tf\2\79cb4c12-e3ec-4176-99af-41783ae92608.gz
+* $tf\2\7ad536d2-53d2-4fea-92b3-0ff5c68b2d89.gz
+* $tf\2\8eac9eb2-98fe-4381-8681-b384ec36ef4d.gz
+* $tf\2\a151e182-f5dd-4038-a7ce-5e15ecddfe91.gz
+* $tf\2\a85129c2-b6a6-46a5-8f7c-7610062033ef.gz
+* $tf\2\a9943e52-4bc2-4298-a356-b3e5edb66ac0.gz
+* $tf\2\aa9ddbe2-480a-4d8a-a3dd-3c060349536a.gz
+* $tf\2\af7ad6b2-fd60-4861-a15d-9e52ea8d9582.gz
+* $tf\2\b2041dd2-052f-4f6c-ac46-98edf8a348d1.gz
+* $tf\2\b3276a12-5a66-4113-98ee-5645020fa6f1.gz
+* $tf\2\b68a0692-2ba1-441d-b49a-446d9602ee93.gz
+* $tf\2\ba87a672-cb65-4153-8dca-773ff6b486c8.gz
+* $tf\2\c08dc3d2-6ce0-4ffd-b877-1195b741f8e5.gz
+* $tf\2\c6c8dba2-1da4-4f66-a702-0581cbf03f35.gz
+* $tf\2\ca5f8292-5c28-4941-a103-42ffec298a7d.gz
+* $tf\2\dc7945f2-abda-4478-9715-c049f229b78d.gz
+* $tf\2\e3444a22-c3fa-49e9-abc2-ec441106260d.gz
+* $tf\2\e5923dc2-a693-4c17-b8a9-117d4036e080.gz
+* $tf\2\ed4b4442-8210-45a0-a335-243f90752dc2.gz
+* $tf\2\f151ee02-12a1-4b9b-90bd-cee09124b59f.gz
+* $tf\2\f6ed2f92-e4da-4e94-8967-009707e4daec.gz
+* $tf\2\fdfd18b2-d08f-44c5-9ee9-0c982106cb02.gz
+* $tf\3\
+* $tf\3\0a4d83b3-fa1a-485e-9515-1d3b184d567b.gz
+* $tf\3\10192b93-7d82-4c27-9615-94d0c05b120e.gz
+* $tf\3\1ff0bf03-63f6-4a04-905c-35c03f911a40.gz
+* $tf\3\25613963-011c-448a-9763-d9c5fc92f626.gz
+* $tf\3\27f9e103-afb2-4f4e-878c-3495024597a4.gz
+* $tf\3\28e9f7c3-c398-495b-909b-30c06802d288.gz
+* $tf\3\2e0bf3b3-f1a4-4508-82a1-864ad9c1dd0d.gz
+* $tf\3\32ac79d3-e23a-47aa-afa4-15d28369d8ed.gz
+* $tf\3\3a832ce3-bae3-4387-ba86-71914d1a1018.gz
+* $tf\3\3b8ab513-a881-431f-8f70-e6ed03e4bca8.gz
+* $tf\3\3e6b8523-641a-4a9c-bd73-fed3b531d8eb.gz
+* $tf\3\3f216883-7d24-4b93-ba27-62c191d56eae.gz
+* $tf\3\4151de13-0b42-43e9-bd8e-6a87f545b34c.gz
+* $tf\3\4180cd33-95e9-420e-8064-f4561b81245c.gz
+* $tf\3\4d7dc963-6e11-4c6d-9e52-2015327a0f51.gz
+* $tf\3\4e39f553-4be5-4584-99d0-2e6cdd2f4644.gz
+* $tf\3\7df9f0c3-e6c6-426c-a6aa-117ca6d2a233.gz
+* $tf\3\82e48dd3-f43b-4588-8c56-69f042f6a481.gz
+* $tf\3\8ceac263-8011-4536-b910-070195c004d9.gz
+* $tf\3\918f7183-afaf-42b2-971c-9cf08fa01d39.gz
+* $tf\3\9253cfd3-a583-4c74-bb74-a32c73961573.gz
+* $tf\3\973e3be3-97cc-4083-a016-f9669e30eb7a.gz
+* $tf\3\986dad13-005b-423c-bb8d-2ef297ad1589.gz
+* $tf\3\9aa5d9e3-54db-4178-9360-b6db1f44c933.gz
+* $tf\3\a04b2163-57e8-4a61-9241-aee5db06b554.gz
+* $tf\3\ad9403f3-498f-4c60-b7bc-3547c52b9439.gz
+* $tf\3\b55ec1b3-efcf-4dfc-990a-4c1f21976b94.gz
+* $tf\3\b7ba2533-367f-4ffd-a22a-9c171be2182b.gz
+* $tf\3\c9c19b13-9faa-4cc2-a1e6-cafce180a5ea.gz
+* $tf\3\d70b8f93-d73a-4d07-8ea7-24b5e4a3e116.gz
+* $tf\3\d81e64a3-f852-4690-8aad-96218f5d2366.gz
+* $tf\3\e0922853-a5c5-408b-a786-8a60a4f96324.gz
+* $tf\3\e6eb5d73-e7cd-4de3-88ca-341b095b64c4.gz
+* $tf\3\ea160ec3-5523-469a-ab3d-732afa9517b5.gz
+* $tf\3\f1919663-7d38-4c19-881a-10266f59a5fd.gz
+* $tf\3\f4d114e3-0f89-4f32-983b-2ac439ccbdf2.gz
+* $tf\3\fafb75c3-c9db-4ed1-82a1-d399f28cf8fe.gz
+* $tf\4\
+* $tf\4\070ddf54-15ba-4594-b3cf-af3aa7878d78.gz
+* $tf\4\0a9a1d74-3ef7-44f6-97e1-515645489fef.gz
+* $tf\4\0e895324-9039-48bc-8630-81382b76aeff.gz
+* $tf\4\1affdbc4-1019-428c-afac-3e78bc2386d8.gz
+* $tf\4\23a3bb04-81fb-4f7f-8ce9-5ec301b184f6.gz
+* $tf\4\3270af64-2e0c-46a0-9708-572af9f6df4c.gz
+* $tf\4\4e30c964-d5f4-4c4d-9bbb-6651b833ff76.gz
+* $tf\4\576fcf94-f159-467c-8373-6a226215954a.gz
+* $tf\4\5d205a04-29f1-493c-87cd-c6947275880a.gz
+* $tf\4\68ba92e4-82eb-482e-98bd-d0588397e02b.gz
+* $tf\4\68bdc694-209b-4ac1-95b4-6406f21e9d58.gz
+* $tf\4\811780c4-8e6c-4739-8e0a-51da2846814f.gz
+* $tf\4\a4d0d044-4726-4aaf-84dc-62d6d96a98a5.gz
+* $tf\4\b1a6aef4-38c2-4b33-a5c4-8331a299a172.gz
+* $tf\4\b6fb79b4-ec1d-49c3-bab0-9eb037dc0800.gz
+* $tf\4\b9f66fb4-d5c9-4d6f-8f17-c83dbbc93020.gz
+* $tf\4\c710d4b4-4abf-4a44-a72c-8f56fb681d1b.gz
+* $tf\4\c7c59444-d9c0-4217-b13f-1b31ed1a4437.gz
+* $tf\4\cc4db784-9883-45c7-8960-b8459e9dbd62.gz
+* $tf\4\d7b277a4-1b79-421a-9dcb-4e03f6a6ce50.gz
+* $tf\4\e54a7ad4-b4c1-4e19-92e5-74a874c2788f.gz
+* $tf\4\ea90b5a4-958b-4d44-b73c-ce092f415f96.gz
+* $tf\4\ea9a6354-2770-4697-9f9e-166d93914ada.gz
+* $tf\4\eb7e8364-ef5e-48a8-b5eb-cc271ce0c10f.gz
+* $tf\4\eb9caed4-addd-4641-99f3-ada9eea69ceb.gz
+* $tf\4\edf043e4-44ff-48aa-a7b4-8cadba4a8cf4.gz
+* $tf\4\f71d0ca4-8ecb-485f-a812-9388724355e4.gz
+* $tf\4\fa7b7ae4-b05a-46cb-a390-ae136b8a41db.gz
+* $tf\5\
+* $tf\5\0cdad585-a0af-455c-b185-ba800c51cebd.gz
+* $tf\5\15a14bd5-5a90-4e90-be03-300f93590b2e.gz
+* $tf\5\19657765-6b67-415a-944c-a5856ec721a3.gz
+* $tf\5\1f4f45e5-e347-4dd5-a519-cdbbc084283c.gz
+* $tf\5\2393e1e5-9790-4bb6-8191-3abdd3a887bb.gz
+* $tf\5\24e6c745-85ee-447c-8b8d-7f389e85284d.gz
+* $tf\5\40693b95-9ff0-4cc4-a7af-dc7d73a96ef5.gz
+* $tf\5\4b8bc2b5-ad66-42ef-9dc3-da41947b5cf8.gz
+* $tf\5\515563a5-72a6-4183-8282-fc29178f7545.gz
+* $tf\5\66a1b805-a828-4aea-936d-8a2c02067444.gz
+* $tf\5\6d424ee5-5c22-49b9-99a1-cabea78d6b05.gz
+* $tf\5\7d6c6dd5-0f00-434b-bba9-3a27df7c5c34.gz
+* $tf\5\8fc44f85-881e-466c-a5bf-6fbcebaa4ff0.gz
+* $tf\5\9e0993b5-0a0e-48fe-b319-d169fad0f16d.gz
+* $tf\5\9ff585c5-f1dd-48de-af98-f400c488022d.gz
+* $tf\5\a14866f5-9896-4f66-bccb-f94c2e2fc37a.gz
+* $tf\5\c51811a5-0c86-462a-b810-0b66782fa2f0.gz
+* $tf\5\cddbf325-0834-4658-9544-06a2ce9a25fd.gz
+* $tf\5\e71fb7d5-b076-4499-8e11-f5c46b995115.gz
+* $tf\5\f7fbf2f5-320b-44f3-a00c-b0eaf24b56b5.gz
+* $tf\5\fef56525-d242-46de-a3cb-9b262f596f65.gz
+* $tf\6\
+* $tf\6\072275b6-49f6-4b03-b969-d77d1c520c4d.gz
+* $tf\6\12c15086-5d59-4ab5-9d28-cd3bd242e04f.gz
+* $tf\6\17b277c6-7488-49d9-8973-19c33ceee40c.gz
+* $tf\6\1c4bbfe6-e5c7-4b46-b236-bc3f66318e9e.gz
+* $tf\6\1f94e686-a91f-4f70-b49a-687636b2e429.gz
+* $tf\6\394c9406-c86e-4481-84d0-51399f4e47f1.gz
+* $tf\6\397fb866-fd0d-4799-8b98-550210484edd.gz
+* $tf\6\39e53016-c9aa-45e3-abfb-8c20202cf1ad.gz
+* $tf\6\563b4856-b47c-4415-9efa-211c7692ae88.gz
+* $tf\6\567d0036-df95-408a-bdd3-0129aeb97146.gz
+* $tf\6\5af3cd46-798a-4a35-89d1-de3e3020e2ce.gz
+* $tf\6\5e5deea6-1696-49e6-9f57-2e95f2270df4.gz
+* $tf\6\7ff3e066-9d4d-4eb4-a7f0-8d16e9b6ce7b.gz
+* $tf\6\8640aeb6-6daa-49ba-a575-15a41a427448.gz
+* $tf\6\a0567766-2409-4862-9caa-751bb897d871.gz
+* $tf\6\a166d3d6-99ab-4b2c-be21-67542ac7c07d.gz
+* $tf\6\a427daa6-f762-4212-97f5-13f72bd66299.gz
+* $tf\6\a7ec6146-c783-48f9-b6ea-60abb416bcf5.gz
+* $tf\6\a92745d6-e527-4a05-808e-af9336ad417e.gz
+* $tf\6\b44b6e86-7475-4dda-926a-a5935c21ba27.gz
+* $tf\6\bc8c97c6-a16a-4813-ada4-eb11bb09ee4e.gz
+* $tf\6\c1522fc6-2940-4e8e-8094-db6fdf440ff7.gz
+* $tf\6\c1dfc616-70b9-4448-aff4-58deb4b54fe8.gz
+* $tf\6\cb728176-8614-4fce-b969-1779a45a8bb1.gz
+* $tf\6\ce0a4976-b551-47c4-a4d7-181a42066091.gz
+* $tf\6\db5db386-644b-4ab6-842b-097b33d2c959.gz
+* $tf\6\ddb62f46-d25d-4380-9595-5cdffdbc663b.gz
+* $tf\6\e79de996-2e6d-491c-9b1c-8bf38d44c90e.gz
+* $tf\6\e878b726-7fbf-4935-8ddd-48ed39878a3e.gz
+* $tf\6\f2d3a2f6-d525-43f7-b172-7cbe82db9e4a.gz
+* $tf\6\f695a336-beae-4951-9cec-e9c67b802a02.gz
+* $tf\7\
+* $tf\7\05a75387-106e-4c0a-958a-ded4f6af8dd0.gz
+* $tf\7\0c707967-7791-4bbe-a469-33de8fe58fe9.gz
+* $tf\7\104d0457-f466-4113-895c-a9479d93c47d.gz
+* $tf\7\16348227-8db2-41cd-8661-baa683b40954.gz
+* $tf\7\1b71ece7-57bc-4ee0-aac2-14377f8171b0.gz
+* $tf\7\2fc0f697-73ea-41e8-a7d5-5f0bc055bb76.gz
+* $tf\7\3a83ea07-3bcf-444e-a86c-d10829cf5464.gz
+* $tf\7\3e595957-b8f1-4192-8d07-61fd0b01fce0.gz
+* $tf\7\3f0e5a97-ef4f-4a70-b6cf-7183ed026b5d.gz
+* $tf\7\4156fc17-e8bb-4e6c-b244-4bd3b0a4614f.gz
+* $tf\7\44f940e7-2fcb-4c7a-9480-d3d5fbd0945e.gz
+* $tf\7\58f85737-23bc-4621-ab32-cd0c231088ec.gz
+* $tf\7\76d7cd57-223d-4c13-b85a-f92424f85c72.gz
+* $tf\7\8746e9e7-0f6e-4953-875a-c62e15dcf07e.gz
+* $tf\7\8f28c617-c685-4c7e-9524-b84aa9b659fc.gz
+* $tf\7\903165f7-4346-41c2-aaa2-6acb5c72b76e.gz
+* $tf\7\9827ab17-02e8-4c2d-b752-a911d55b60a6.gz
+* $tf\7\9d3a7bc7-3139-4e83-aa51-d3b7f8a3487f.gz
+* $tf\7\9ea82e87-e83e-4c5b-82d6-db1a116d65c8.gz
+* $tf\7\a717b007-669e-430a-a76c-115b1aed4c87.gz
+* $tf\7\b06c4407-f5da-4905-bed3-142a8e4220ce.gz
+* $tf\7\b4915857-9bc0-4e26-858e-461942be3701.gz
+* $tf\7\bd1b6e97-7b2b-426d-8885-58f74d0700b8.gz
+* $tf\7\be022007-0fdc-464c-8016-44a8512eebbf.gz
+* $tf\7\be5aedf7-09c9-4556-a528-8d7491345cf7.gz
+* $tf\7\cc964667-4084-4f79-aab6-43d0a756e094.gz
+* $tf\7\dce8ea07-d593-4977-9b08-3dabffa5a1ec.gz
+* $tf\7\e247c107-4051-4173-a2e6-975cff21d2e3.gz
+* $tf\7\ef39b4b7-373f-4337-b5c7-70f7d8fd4afc.gz
+* $tf\7\f939bb17-f4a6-40d5-8326-de9e0690e65b.gz
+* $tf\8\
+* $tf\8\07abda18-150a-47b2-9664-2a4f84144491.gz
+* $tf\8\086d54c8-b967-4b04-b449-46aafc274e81.gz
+* $tf\8\1bbbbec8-e6d5-4547-8fbc-835de4216466.gz
+* $tf\8\1e6ae268-2e40-4d46-945b-565b8936a57f.gz
+* $tf\8\2bc8b228-b11e-48fc-8ec5-2fa1e7c03d37.gz
+* $tf\8\317ec708-5010-4f15-aa28-2a9a89181b84.gz
+* $tf\8\351f3108-c309-4f65-8e7a-0f76f604295c.gz
+* $tf\8\38d0dd78-13bb-4dfa-a9d9-e485c4346cd5.gz
+* $tf\8\40ead028-8270-46a7-8926-c12925c3a757.gz
+* $tf\8\45f6eaf8-553e-4e38-91f1-799193216754.gz
+* $tf\8\477c03a8-be0f-4101-bd73-ffacf84f346c.gz
+* $tf\8\47f95938-e52f-4623-9ef4-698409fb1ca1.gz
+* $tf\8\4c4b5618-6669-406d-b6a7-386b2eb28424.gz
+* $tf\8\52cb0c38-2091-4111-a634-99a26b0c865b.gz
+* $tf\8\610f3198-4c78-4fda-af59-5799890721ed.gz
+* $tf\8\6322d948-73ae-46a6-b38c-3f96a9e629e9.gz
+* $tf\8\6b54aa18-af1b-4977-985b-052629490160.gz
+* $tf\8\6c34f158-444b-43d3-9a5c-12843aa93b1b.gz
+* $tf\8\6f05b5c8-d17c-46c6-8e11-7c2a23586cb2.gz
+* $tf\8\75a30c18-d37e-43f0-80a9-e7c96cbc47fc.gz
+* $tf\8\8a09b328-050b-4417-b4c6-2eb5cee3c904.gz
+* $tf\8\94e4eb48-772e-4414-a0a8-597fcacb5c91.gz
+* $tf\8\9519e088-995d-4790-b9ac-5a9a9c8c883f.gz
+* $tf\8\99ba3e58-f6a6-4a12-b72e-24ef598ed5dd.gz
+* $tf\8\9aaeb4a8-a4e6-42c6-a4e4-ad7ea72edb0c.gz
+* $tf\8\af57af48-3c7d-48d5-ba17-5195045a6619.gz
+* $tf\8\b20fcb78-26fd-4894-bdd1-3328a51f0326.gz
+* $tf\8\b94ea1b8-3d0f-4f44-bc66-4402cb55053e.gz
+* $tf\8\bbb51d68-2d0d-44fb-9ae7-be393a199b8e.gz
+* $tf\8\c50ee768-e9c7-4c45-8b7c-a258f0bfd344.gz
+* $tf\8\c510a908-db20-453f-88e9-248b1715248c.gz
+* $tf\8\c6615788-5020-45d0-9e25-77a589a79060.gz
+* $tf\8\d2ff88f8-8b27-4e0f-b6a6-ba28fb38b10f.gz
+* $tf\8\d77d89c8-bcb6-493e-8a38-935e72c4847d.gz
+* $tf\8\e3015bd8-d046-4858-b0ec-38aa0c13acb6.gz
+* $tf\8\e3117408-8fed-4fca-b89e-000784393d2d.gz
+* $tf\8\e4f11418-11d3-4d7c-917f-9b364467391b.gz
+* $tf\8\f6711228-dbea-4082-a93e-e93bf549059b.gz
+* $tf\8\f849b388-ea9a-4181-b130-1c840378d04d.gz
+* $tf\8\fadb8ef8-41a6-4e14-ae5a-05421ee5663c.gz
+* $tf\9\
+* $tf\9\00016b39-6fe3-496c-ba06-9701ebe71b6d.gz
+* $tf\9\00540759-b429-422d-ab75-08e024342208.gz
+* $tf\9\0e4ac969-34a3-46e2-adc2-5af64efe4db4.gz
+* $tf\9\12ec21a9-6793-4097-9174-7230637ab598.gz
+* $tf\9\145c2819-ead1-4e61-b57b-6d8f72caa6e8.gz
+* $tf\9\2c7adc29-5f9d-4b1b-97c3-7553d5da0cd3.gz
+* $tf\9\2dd4eba9-6672-4588-ae92-ad422b73d948.gz
+* $tf\9\377fb969-1bd0-4d95-95a6-9972ac3a792f.gz
+* $tf\9\46e38369-7f69-4de4-99f6-4770f358e526.gz
+* $tf\9\5feb4b69-eb05-4a44-bfbe-e610ee87bbab.gz
+* $tf\9\7e1d4af9-b24a-4367-86d3-754e4c26a0e0.gz
+* $tf\9\8a12d169-411a-4c07-b15a-e6a27f3f6a07.gz
+* $tf\9\8b5e2549-4e3e-427c-ab2a-7c39813769f5.gz
+* $tf\9\8d05bc89-5d5b-4f8a-ace1-7c2c0b94487d.gz
+* $tf\9\8d214469-9f47-49d6-a21e-c7971a5b593f.gz
+* $tf\9\923ea3c9-2de4-41f3-846a-a13abf859ce6.gz
+* $tf\9\928b1b19-6cb9-4b68-b937-5d4b11a577df.gz
+* $tf\9\99d917d9-6e0a-43e8-9807-a4898ab7f9d6.gz
+* $tf\9\9af76c89-2123-4889-8433-4391f607ff58.gz
+* $tf\9\a71259c9-cfe3-4496-b94e-978104d8ee3c.gz
+* $tf\9\b7253f69-039a-4d63-b47c-3cd49dd1d41e.gz
+* $tf\9\b7eafc79-3e18-443c-8185-dbff4ad6b028.gz
+* $tf\9\c05a4fb9-cdca-4c9b-8095-d2e31ae880bd.gz
+* $tf\9\c365aec9-4551-437b-ac4d-0d245165037f.gz
+* $tf\9\c4d52d09-0283-4ac2-94bf-b1452bde965c.gz
+* $tf\9\c5185939-5b91-4347-b295-a0f4b44ac586.gz
+* $tf\9\d014eb19-a26d-4a36-95b2-21b8209f71a8.gz
+* $tf\9\e12d79a9-6d20-4b0c-931a-955e901e0c7b.gz
+* $tf\9\e6a054a9-7065-4ead-80d1-17d0fa336d12.gz
+* $tf\9\ea07bef9-c067-45f6-9d1d-b95c3aa8aaee.gz
+* $tf\9\ecf136c9-1e22-43db-ad0b-1289c82b6634.gz
+* $tf\9\edd54469-a575-4abc-95a0-27a781868593.gz
+* $tf\9\f4961d59-6263-4953-a85f-7c7ddb10d3bc.gz
+* $tf\9\f57e5f29-7669-4c26-a1de-64c62100ec08.gz
+* $tf\9\f955a749-2909-42aa-aaed-b24ab38ad20a.gz
+* $tf\localversion.tf1
+* $tf\pendingchanges.tf1
+* $tf\properties.tf1
+* .metadata\
+* .metadata\.log
+* .metadata\.plugins\
+* .metadata\.plugins\org.eclipse.cdt.core\
+* .metadata\.plugins\org.eclipse.cdt.core\.log
+* .metadata\.plugins\org.eclipse.cdt.make.core\
+* .metadata\.plugins\org.eclipse.cdt.make.core\specs.c
+* .metadata\.plugins\org.eclipse.cdt.make.core\specs.cpp
+* .metadata\.plugins\org.eclipse.core.resources\
+* .metadata\.plugins\org.eclipse.core.resources\.root\
+* .metadata\.plugins\org.eclipse.core.resources\.root\.indexes\
+* .metadata\.plugins\org.eclipse.core.resources\.root\.indexes\history.version
+* .metadata\.plugins\org.eclipse.core.resources\.root\.indexes\properties.index
+* .metadata\.plugins\org.eclipse.core.resources\.root\.indexes\properties.version
+* .metadata\.plugins\org.eclipse.core.resources\.root\2.tree
+* .metadata\.plugins\org.eclipse.core.resources\.safetable\
+* .metadata\.plugins\org.eclipse.core.resources\.safetable\org.eclipse.core.resources
+* .metadata\.plugins\org.eclipse.core.runtime\
+* .metadata\.plugins\org.eclipse.core.runtime\.settings\
+* .metadata\.plugins\org.eclipse.core.runtime\.settings\com.android.ide.eclipse.adt.prefs
+* .metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.cdt.ui.prefs
+* .metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.core.resources.prefs
+* .metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.jdt.ui.prefs
+* .metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.team.ui.prefs
+* .metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.ui.ide.prefs
+* .metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.ui.prefs
+* .metadata\.plugins\org.eclipse.e4.workbench\
+* .metadata\.plugins\org.eclipse.e4.workbench\workbench.xmi
+* .metadata\.plugins\org.eclipse.jdt.core\
+* .metadata\.plugins\org.eclipse.jdt.core\assumedExternalFilesCache
+* .metadata\.plugins\org.eclipse.jdt.core\externalFilesCache
+* .metadata\.plugins\org.eclipse.jdt.core\invalidArchivesCache
+* .metadata\.plugins\org.eclipse.jdt.core\nonChainingJarsCache
+* .metadata\.plugins\org.eclipse.jdt.core\variablesAndContainers.dat
+* .metadata\.plugins\org.eclipse.jdt.ui\
+* .metadata\.plugins\org.eclipse.jdt.ui\OpenTypeHistory.xml
+* .metadata\.plugins\org.eclipse.jdt.ui\QualifiedTypeNameHistory.xml
+* .metadata\.plugins\org.eclipse.jdt.ui\dialog_settings.xml
+* .metadata\.plugins\org.eclipse.pde.core\
+* .metadata\.plugins\org.eclipse.pde.core\.cache\
+* .metadata\.plugins\org.eclipse.pde.core\.cache\clean-cache.properties
+* .metadata\.plugins\org.eclipse.ui.workbench\
+* .metadata\.plugins\org.eclipse.ui.workbench\dialog_settings.xml
+* .metadata\.plugins\org.eclipse.ui.workbench\workingsets.xml
+* .metadata\version.ini
+* default.properties
+* proguard.cfg
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+android-support-v7-appcompat.jar => com.android.support:appcompat-v7:19.1.0
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+android-support-v7-appcompat => [com.android.support:appcompat-v7:19.1.0]
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* libs\commons-net-3.0.1.jar => app\libs\commons-net-3.0.1.jar
+* lint.xml => app\lint.xml
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

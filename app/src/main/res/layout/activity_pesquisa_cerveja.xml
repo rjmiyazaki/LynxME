@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/pesquisa_cerveja_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <ScrollView
+        android:id="@+id/pesquisa_equipamento_scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/pesquisaCerveja_Label_Marca"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:text="Marca"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/pesquisaCerveja_Label_Caixa"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Caixas"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000"
+                android:layout_gravity="right"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/pesquisaCerveja_Label_Preco"
+                android:layout_toStartOf="@+id/pesquisaCerveja_Label_Preco" />
+
+            <TextView
+                android:id="@+id/pesquisaCerveja_Label_Preco"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:gravity="center"
+                android:text="Preço"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/pesquisaCerveja_Label_Kaiser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="40dp"
+                android:text="Kaiser"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/pesquisaCerveja_Kaiser_Caixa"
+                android:layout_width="100dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textfield_activated_holo_light"
+                android:layout_alignLeft="@+id/pesquisaCerveja_Label_Caixa"
+                android:layout_alignBottom="@+id/pesquisaCerveja_Label_Kaiser"
+                android:textColor="#000000"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/pesquisaCerveja_Kaiser_Preco"
+                android:layout_width="100dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textfield_activated_holo_light"
+                android:layout_alignLeft="@+id/pesquisaCerveja_Label_Preco"
+                android:layout_alignBottom="@+id/pesquisaCerveja_Label_Kaiser"
+                android:textColor="#000000"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:id="@+id/pesquisaCerveja_Label_Bohemia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="80dp"
+                android:text="Bohemia 600ml"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/pesquisaCerveja_Bohemia_Caixa"
+                android:layout_width="100dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textfield_activated_holo_light"
+                android:layout_alignLeft="@+id/pesquisaCerveja_Label_Caixa"
+                android:layout_alignBottom="@+id/pesquisaCerveja_Label_Bohemia"
+                android:textColor="#000000"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/pesquisaCerveja_Bohemia_Preco"
+                android:layout_width="100dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textfield_activated_holo_light"
+                android:layout_alignLeft="@+id/pesquisaCerveja_Label_Preco"
+                android:layout_alignBottom="@+id/pesquisaCerveja_Label_Bohemia"
+                android:textColor="#000000"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:id="@+id/pesquisaCerveja_Label_Skol1L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="120dp"
+                android:text="Skol 1L"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/pesquisaCerveja_Skol1L_Caixa"
+                android:layout_width="100dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textfield_activated_holo_light"
+                android:layout_alignLeft="@+id/pesquisaCerveja_Label_Caixa"
+                android:layout_alignBottom="@+id/pesquisaCerveja_Label_Skol1L"
+                android:textColor="#000000"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/pesquisaCerveja_Skol1L_Preco"
+                android:layout_width="100dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textfield_activated_holo_light"
+                android:layout_alignLeft="@+id/pesquisaCerveja_Label_Preco"
+                android:layout_alignBottom="@+id/pesquisaCerveja_Label_Skol1L"
+                android:textColor="#000000"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:id="@+id/pesquisaCerveja_Label_Skol600"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="160dp"
+                android:text="Skol 600ml"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/pesquisaCerveja_Skol600_Caixa"
+                android:layout_width="100dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textfield_activated_holo_light"
+                android:layout_alignLeft="@+id/pesquisaCerveja_Label_Caixa"
+                android:layout_alignBottom="@+id/pesquisaCerveja_Label_Skol600"
+                android:textColor="#000000"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/pesquisaCerveja_Skol600_Preco"
+                android:layout_width="100dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textfield_activated_holo_light"
+                android:layout_alignLeft="@+id/pesquisaCerveja_Label_Preco"
+                android:layout_alignBottom="@+id/pesquisaCerveja_Label_Skol600"
+                android:textColor="#000000"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:id="@+id/pesquisaCerveja_Label_Brahma1L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="200dp"
+                android:text="Brahma 1L"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/pesquisaCerveja_Brahma1L_Caixa"
+                android:layout_width="100dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textfield_activated_holo_light"
+                android:layout_alignLeft="@+id/pesquisaCerveja_Label_Caixa"
+                android:layout_alignBottom="@+id/pesquisaCerveja_Label_Brahma1L"
+                android:textColor="#000000"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/pesquisaCerveja_Brahma1L_Preco"
+                android:layout_width="100dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textfield_activated_holo_light"
+                android:layout_alignLeft="@+id/pesquisaCerveja_Label_Preco"
+                android:layout_alignBottom="@+id/pesquisaCerveja_Label_Brahma1L"
+                android:textColor="#000000"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:id="@+id/pesquisaCerveja_Label_Brahma600"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="240dp"
+                android:text="Brahma 600ml"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/pesquisaCerveja_Brahma600_Caixa"
+                android:layout_width="100dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textfield_activated_holo_light"
+                android:layout_alignLeft="@+id/pesquisaCerveja_Label_Caixa"
+                android:layout_alignBottom="@+id/pesquisaCerveja_Label_Brahma600"
+                android:textColor="#000000"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/pesquisaCerveja_Brahma600_Preco"
+                android:layout_width="100dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textfield_activated_holo_light"
+                android:layout_alignLeft="@+id/pesquisaCerveja_Label_Preco"
+                android:layout_alignBottom="@+id/pesquisaCerveja_Label_Brahma600"
+                android:textColor="#000000"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:id="@+id/pesquisaCerveja_Label_Antartica"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="280dp"
+                android:text="Antártica"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/pesquisaCerveja_Antartica_Caixa"
+                android:layout_width="100dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textfield_activated_holo_light"
+                android:layout_alignLeft="@+id/pesquisaCerveja_Label_Caixa"
+                android:layout_alignBottom="@+id/pesquisaCerveja_Label_Antartica"
+                android:textColor="#000000"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/pesquisaCerveja_Antartica_Preco"
+                android:layout_width="100dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textfield_activated_holo_light"
+                android:layout_alignLeft="@+id/pesquisaCerveja_Label_Preco"
+                android:layout_alignBottom="@+id/pesquisaCerveja_Label_Antartica"
+                android:textColor="#000000"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:id="@+id/pesquisaCerveja_Label_Schin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="320dp"
+                android:text="Schin 600ml"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/pesquisaCerveja_Schin_Caixa"
+                android:layout_width="100dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textfield_activated_holo_light"
+                android:layout_alignLeft="@+id/pesquisaCerveja_Label_Caixa"
+                android:layout_alignBottom="@+id/pesquisaCerveja_Label_Schin"
+                android:textColor="#000000"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/pesquisaCerveja_Schin_Preco"
+                android:layout_width="100dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textfield_activated_holo_light"
+                android:layout_alignLeft="@+id/pesquisaCerveja_Label_Preco"
+                android:layout_alignBottom="@+id/pesquisaCerveja_Label_Schin"
+                android:textColor="#000000"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:id="@+id/pesquisaCerveja_Label_Bavaria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="360dp"
+                android:text="Bavária"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/pesquisaCerveja_Bavaria_Caixa"
+                android:layout_width="100dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textfield_activated_holo_light"
+                android:layout_alignLeft="@+id/pesquisaCerveja_Label_Caixa"
+                android:layout_alignBottom="@+id/pesquisaCerveja_Label_Bavaria"
+                android:textColor="#000000"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/pesquisaCerveja_Bavaria_Preco"
+                android:layout_width="100dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textfield_activated_holo_light"
+                android:layout_alignLeft="@+id/pesquisaCerveja_Label_Preco"
+                android:layout_alignBottom="@+id/pesquisaCerveja_Label_Bavaria"
+                android:textColor="#000000"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:id="@+id/pesquisaCerveja_Label_Original"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="400dp"
+                android:text="Original 600ml"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/pesquisaCerveja_Original_Caixa"
+                android:layout_width="100dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textfield_activated_holo_light"
+                android:layout_alignLeft="@+id/pesquisaCerveja_Label_Caixa"
+                android:layout_alignBottom="@+id/pesquisaCerveja_Label_Original"
+                android:textColor="#000000"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/pesquisaCerveja_Original_Preco"
+                android:layout_width="100dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textfield_activated_holo_light"
+                android:layout_alignLeft="@+id/pesquisaCerveja_Label_Preco"
+                android:layout_alignBottom="@+id/pesquisaCerveja_Label_Original"
+                android:textColor="#000000"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:id="@+id/pesquisaCerveja_Label_Itaipava"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="440dp"
+                android:text="Itaipava 600ml"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/pesquisaCerveja_Itaipava_Caixa"
+                android:layout_width="100dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textfield_activated_holo_light"
+                android:layout_alignLeft="@+id/pesquisaCerveja_Label_Caixa"
+                android:layout_alignBottom="@+id/pesquisaCerveja_Label_Itaipava"
+                android:textColor="#000000"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/pesquisaCerveja_Itaipava_Preco"
+                android:layout_width="100dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textfield_activated_holo_light"
+                android:layout_alignLeft="@+id/pesquisaCerveja_Label_Preco"
+                android:layout_alignBottom="@+id/pesquisaCerveja_Label_Itaipava"
+                android:textColor="#000000"
+                android:inputType="numberDecimal" />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:paddingTop="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingBottom="1dp">
+
+    <TextView
+        android:id="@+id/idRowTitulo_Tipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Cheque pré-datado"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/idRowTitulo_Numero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/idRowTitulo_Tipo"
+        android:layout_alignParentRight="true"
+        android:text="000000000"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/idRowTitulo_TextoValorTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/idRowTitulo_Tipo"
+        android:text="Valor do título"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/idRowTitulo_ValorTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/idRowTitulo_TextoValorTitulo"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/idRowTitulo_Numero"
+        android:text="0,00"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/idRowTitulo_TextoSaldoAtualizado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/idRowTitulo_TextoValorTitulo"
+        android:text="Saldo atualizado"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/idRowTitulo_SaldoTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/idRowTitulo_TextoSaldoAtualizado"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/idRowTitulo_ValorTitulo"
+        android:text="0,00"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/idRowTitulo_TextoDataEmissao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/idRowTitulo_TextoSaldoAtualizado"
+        android:text="Data emissão"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/idRowTitulo_DataEmissao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/idRowTitulo_TextoDataEmissao"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/idRowTitulo_SaldoTitulo"
+        android:text="00/00/0000"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/idRowTitulo_TextoDataVencimento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/idRowTitulo_TextoDataEmissao"
+        android:text="Data vencimento"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/idRowTitulo_DataVencimento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/idRowTitulo_TextoDataVencimento"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/idRowTitulo_DataEmissao"
+        android:text="00/00/0000"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/idRowTitulo_TextoDivisao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/idRowTitulo_TextoDataVencimento"
+        android:text="Divisão"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/idRowTitulo_Divisao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/idRowTitulo_TextoDivisao"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/idRowTitulo_DataVencimento"
+        android:text="Coca-Cola"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:layout_below="@+id/idRowTitulo_Divisao"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary" />
+</RelativeLayout>

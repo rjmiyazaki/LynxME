@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:id="@+id/idRowPedidoItem"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/idRowPedidoItem_Item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Descrição do item"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/idRowPedidoItem_Label_Quantidade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Quantidade:"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/idRowPedidoItem_Quantidade"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:width="25dp"
+            android:gravity="right"
+            android:text="000"
+            android:layout_marginLeft="60dp"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/idRowPedidoItem_Label_ValorUnitario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:text="Valor unitário(R$):"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/idRowPedidoItem_ValorUnitario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="70dp"
+            android:gravity="right"
+            android:layout_alignParentRight="true"
+            android:text="00.000,00"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/idRowPedidoItem_Label_Desconto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Variação(%):"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/idRowPedidoItem_Desconto"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60sp"
+            android:width="38dp"
+            android:gravity="right"
+            android:text="00,00%"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/idRowPedidoItem_Label_ValorLiquido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Valor Líquido(R$):"
+            android:layout_marginLeft="150dp"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/idRowPedidoItem_ValorLiquido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:width="70dp"
+            android:gravity="right"
+            android:text="00.000,00"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/idRowPedidoItem_Label_ValorTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Valor Total(R$):"
+            android:layout_marginLeft="150dp"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/idRowPedidoItem_ValorTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:width="70dp"
+            android:gravity="right"
+            android:text="00.000,00"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+</LinearLayout>

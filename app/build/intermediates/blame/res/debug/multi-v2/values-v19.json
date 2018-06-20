@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\Projetos\\LynxME\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v19\\values-v19.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Rogerio\\.gradle\\caches\\transforms-1\\files-1.1\\library-2.8.2.aar\\becbfcd2d3db5025462a0181a8448f73\\res\\values-v19\\values.xml",
+                    "from": {
+                        "startLines": "4,7,10,13,16,19,22",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "213,423,607,803,1023,1223,1399",
+                        "endLines": "4,9,12,15,18,21,24",
+                        "endColumns": "51,12,12,12,12,12,12",
+                        "endOffsets": "260,602,798,1018,1218,1394,1558"
+                    },
+                    "to": {
+                        "startLines": "2,3,6,9,12,15,18",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,107,291,487,707,907,1083",
+                        "endLines": "2,5,8,11,14,17,20",
+                        "endColumns": "51,12,12,12,12,12,12",
+                        "endOffsets": "102,286,482,702,902,1078,1242"
+                    }
+                }
+            ]
+        }
+    ]
+}

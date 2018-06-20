@@ -1,0 +1,196 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="280dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/txtProduto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Nome do Produto"
+        android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Tabela de Preço"></TextView>
+
+    <Spinner
+        android:id="@+id/spnTabelaPreco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtProduto"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"></Spinner>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@color/azure2">
+
+        <TextView
+            android:id="@+id/txtValorUnitario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Valor Unitário"
+            android:textColor="@color/black"></TextView>
+
+        <TextView
+            android:id="@+id/edtValorUnitario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="R$ 0,00"
+            android:textColor="@color/black"></TextView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Valor Líquido"></TextView>
+
+        <TextView
+            android:id="@+id/edtValorLiquido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="R$ 0,00">
+
+        </TextView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/azure2">
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Valor Total"
+            android:textColor="@color/black"></TextView>
+
+        <TextView
+            android:id="@+id/edtValorTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="R$ 0,00"
+            android:textColor="@color/black"></TextView>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Tipo de Desconto"></TextView>
+
+    <Spinner
+        android:id="@+id/spnTipoDesconto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"></Spinner>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/azure2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_confirma_item_desconto_prompt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Desconto:"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/edtDesconto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="right"
+            android:text=""
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/azure2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_confirma_item_quantidade_prompt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quantidade:"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/edtQuantidade"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:text=""
+            android:gravity="right"
+            android:layout_gravity="bottom"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:inputType="number"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnInsere"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adicionar"
+            android:textColor="@color/white"
+            android:drawableLeft="@drawable/ic_add_shopping_cart_white_24dp" />
+
+        <Button
+            android:id="@+id/btnExclui"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_remove_shopping_cart_white_24dp"
+            android:text="Remover"
+            android:textColor="@color/white"
+            android:layout_alignParentEnd="true"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

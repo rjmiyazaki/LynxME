@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:id="@+id/row_divisao"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/divisao_nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="DIVISÃO"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/divisao_faturamento"
+        android:layout_width="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/divisao_nome"
+        android:text="R$ 123.456,00"
+        android:textSize="15sp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/divisao_volume"
+        android:layout_width="150dp"
+        android:layout_marginLeft="160dp"
+        android:layout_height="wrap_content"
+        android:text="CAIXAS"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/divisao_nome" />
+
+    <TextView
+        android:id="@+id/divisao_cobertura"
+        android:layout_width="80dp"
+        android:layout_marginLeft="320dp"
+        android:layout_alignParentRight="true"
+        android:gravity="end"
+        android:layout_height="wrap_content"
+        android:text="00"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/divisao_nome" />
+
+</RelativeLayout>

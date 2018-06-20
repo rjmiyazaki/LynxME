@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/idCheckout_PesquisaCheckout_Titulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#0000cd"
+                android:text="Checkout no. "
+                android:textColor="#ffffff"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idCheckout_Pergunta1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Pesquisa_Checkout_Pergunta1"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+
+            <RadioGroup
+                android:id="@+id/idCheckout_Resposta1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <RadioButton
+                    android:id="@+id/idCheckout_Resposta1_Sim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/Sim"
+                    android:textColor="#000000"
+                    android:textSize="12sp" >
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/idCheckout_Resposta1_Nao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Não"
+                    android:textColor="#000000"
+                    android:textSize="12sp" >
+                </RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/idCheckout_Pergunta2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Pesquisa_Checkout_Pergunta2"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+
+            <RadioGroup
+                android:id="@+id/idCheckout_Resposta2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <RadioButton
+                    android:id="@+id/idCheckout_Resposta2_Sim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/Sim"
+                    android:textColor="#000000"
+                    android:textSize="12sp" >
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/idCheckout_Resposta2_Nao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Não"
+                    android:textColor="#000000"
+                    android:textSize="12sp" >
+                </RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/idCheckout_Pergunta3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Pesquisa_Checkout_Pergunta3"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+
+            <RadioGroup
+                android:id="@+id/idCheckout_Resposta3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <RadioButton
+                    android:id="@+id/idCheckout_Resposta3_Sim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/Sim"
+                    android:textColor="#000000"
+                    android:textSize="12sp" >
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/idCheckout_Resposta3_Nao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Não"
+                    android:textColor="#000000"
+                    android:textSize="12sp" >
+                </RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/idCheckout_Pergunta4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Pesquisa_Checkout_Pergunta4"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+
+            <RadioGroup
+                android:id="@+id/idCheckout_Resposta4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <RadioButton
+                    android:id="@+id/idCheckout_Resposta4_Sim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/Sim"
+                    android:textColor="#000000"
+                    android:textSize="12sp" >
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/idCheckout_Resposta4_Nao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Não"
+                    android:textColor="#000000"
+                    android:textSize="12sp" >
+                </RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/idCheckout_Pergunta5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Pesquisa_Checkout_Pergunta5"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+
+            <RadioGroup
+                android:id="@+id/idCheckout_Resposta5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <RadioButton
+                    android:id="@+id/idCheckout_Resposta5_Sim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/Sim"
+                    android:textColor="#000000"
+                    android:textSize="12sp" >
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/idCheckout_Resposta5_Nao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Não"
+                    android:textColor="#000000"
+                    android:textSize="12sp" >
+                </RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/idCheckout_Pergunta6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Pesquisa_Checkout_Pergunta6"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+
+            <RadioGroup
+                android:id="@+id/idCheckout_Resposta6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <RadioButton
+                    android:id="@+id/idCheckout_Resposta6_Sim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/Sim"
+                    android:textColor="#000000"
+                    android:textSize="12sp" >
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/idCheckout_Resposta6_Nao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Não"
+                    android:textColor="#000000"
+                    android:textSize="12sp" >
+                </RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/idCheckout_Pergunta7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Pesquisa_Checkout_Pergunta7"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+
+            <RadioGroup
+                android:id="@+id/idCheckout_Resposta7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <RadioButton
+                    android:id="@+id/idCheckout_Resposta7_Sim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/Sim"
+                    android:textColor="#000000"
+                    android:textSize="12sp" >
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/idCheckout_Resposta7_Nao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Não"
+                    android:textColor="#000000"
+                    android:textSize="12sp" >
+                </RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/idCheckout_Pergunta8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Pesquisa_Checkout_Pergunta8"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+
+            <RadioGroup
+                android:id="@+id/idCheckout_Resposta8"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <RadioButton
+                    android:id="@+id/idCheckout_Resposta8_Sim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/Sim"
+                    android:textColor="#000000"
+                    android:textSize="12sp" >
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/idCheckout_Resposta8_Nao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Não"
+                    android:textColor="#000000"
+                    android:textSize="12sp" >
+                </RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/idCheckout_Pergunta9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Pesquisa_Checkout_Pergunta9"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+
+            <RadioGroup
+                android:id="@+id/idCheckout_Resposta9"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <RadioButton
+                    android:id="@+id/idCheckout_Resposta9_Sim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/Sim"
+                    android:textColor="#000000"
+                    android:textSize="12sp" >
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/idCheckout_Resposta9_Nao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Não"
+                    android:textColor="#000000"
+                    android:textSize="12sp" >
+                </RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/idCheckout_Pergunta10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Pesquisa_Checkout_Pergunta10"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+
+            <RadioGroup
+                android:id="@+id/idCheckout_Resposta10"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <RadioButton
+                    android:id="@+id/idCheckout_Resposta10_Sim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/Sim"
+                    android:textColor="#000000"
+                    android:textSize="12sp" >
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/idCheckout_Resposta10_Nao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Não"
+                    android:textColor="#000000"
+                    android:textSize="12sp" >
+                </RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/idCheckout_Pergunta11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Pesquisa_Checkout_Pergunta11"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+
+            <RadioGroup
+                android:id="@+id/idCheckout_Resposta11"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <RadioButton
+                    android:id="@+id/idCheckout_Resposta11_Sim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/Sim"
+                    android:textColor="#000000"
+                    android:textSize="12sp" >
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/idCheckout_Resposta11_Nao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Não"
+                    android:textColor="#000000"
+                    android:textSize="12sp" >
+                </RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/idCheckout_Pergunta12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Pesquisa_Checkout_Pergunta12"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+
+            <RadioGroup
+                android:id="@+id/idCheckout_Resposta12"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <RadioButton
+                    android:id="@+id/idCheckout_Resposta12_Sim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/Sim"
+                    android:textColor="#000000"
+                    android:textSize="12sp" >
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/idCheckout_Resposta12_Nao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Não"
+                    android:textColor="#000000"
+                    android:textSize="12sp" >
+                </RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/idCheckout_Pergunta13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Pesquisa_Checkout_Pergunta13"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+
+            <RadioGroup
+                android:id="@+id/idCheckout_Resposta13"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <RadioButton
+                    android:id="@+id/idCheckout_Resposta13_Sim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/Sim"
+                    android:textColor="#000000"
+                    android:textSize="12sp" >
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/idCheckout_Resposta13_Nao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Não"
+                    android:textColor="#000000"
+                    android:textSize="12sp" >
+                </RadioButton>
+            </RadioGroup>
+            
+            <TextView
+                android:id="@+id/idCheckout_Pergunta14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Pesquisa_Checkout_Pergunta14"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+
+            <RadioGroup
+                android:id="@+id/idCheckout_Resposta14"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <RadioButton
+                    android:id="@+id/idCheckout_Resposta14_Sim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/Sim"
+                    android:textColor="#000000"
+                    android:textSize="12sp" >
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/idCheckout_Resposta14_Nao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Não"
+                    android:textColor="#000000"
+                    android:textSize="12sp" >
+                </RadioButton>
+            </RadioGroup>           
+
+            <TextView
+                android:id="@+id/idCheckout_Pergunta15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Pesquisa_Checkout_Pergunta15"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+
+            <RadioGroup
+                android:id="@+id/idCheckout_Resposta15"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <RadioButton
+                    android:id="@+id/idCheckout_Resposta15_Sim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/Sim"
+                    android:textColor="#000000"
+                    android:textSize="12sp" >
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/idCheckout_Resposta15_Nao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Não"
+                    android:textColor="#000000"
+                    android:textSize="12sp" >
+                </RadioButton>
+            </RadioGroup>           
+            
+            <TextView
+                android:id="@+id/idCheckout_Pergunta16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Pesquisa_Checkout_Pergunta16"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+
+            <RadioGroup
+                android:id="@+id/idCheckout_Resposta16"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <RadioButton
+                    android:id="@+id/idCheckout_Resposta16_Sim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/Sim"
+                    android:textColor="#000000"
+                    android:textSize="12sp" >
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/idCheckout_Resposta16_Nao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Não"
+                    android:textColor="#000000"
+                    android:textSize="12sp" >
+                </RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/idCheckout_Pergunta17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Pesquisa_Checkout_Pergunta17"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+
+            <RadioGroup
+                android:id="@+id/idCheckout_Resposta17"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <RadioButton
+                    android:id="@+id/idCheckout_Resposta17_Sim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/Sim"
+                    android:textColor="#000000"
+                    android:textSize="12sp" >
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/idCheckout_Resposta17_Nao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Não"
+                    android:textColor="#000000"
+                    android:textSize="12sp" >
+                </RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/idCheckout_Pergunta18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Pesquisa_Checkout_Pergunta18"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+
+            <RadioGroup
+                android:id="@+id/idCheckout_Resposta18"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <RadioButton
+                    android:id="@+id/idCheckout_Resposta18_Sim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/Sim"
+                    android:textColor="#000000"
+                    android:textSize="12sp" >
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/idCheckout_Resposta18_Nao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Não"
+                    android:textColor="#000000"
+                    android:textSize="12sp" >
+                </RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/idCheckout_Pergunta19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Pesquisa_Checkout_Pergunta19"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+
+            <RadioGroup
+                android:id="@+id/idCheckout_Resposta19"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <RadioButton
+                    android:id="@+id/idCheckout_Resposta19_Sim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/Sim"
+                    android:textColor="#000000"
+                    android:textSize="12sp" >
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/idCheckout_Resposta19_Nao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Não"
+                    android:textColor="#000000"
+                    android:textSize="12sp" >
+                </RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/idCheckout_Pergunta20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Pesquisa_Checkout_Pergunta20"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+
+            <RadioGroup
+                android:id="@+id/idCheckout_Resposta20"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <RadioButton
+                    android:id="@+id/idCheckout_Resposta20_Sim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/Sim"
+                    android:textColor="#000000"
+                    android:textSize="12sp" >
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/idCheckout_Resposta20_Nao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Não"
+                    android:textColor="#000000"
+                    android:textSize="12sp" >
+                </RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/idCheckout_Pergunta21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Pesquisa_Checkout_Pergunta21"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+
+            <RadioGroup
+                android:id="@+id/idCheckout_Resposta21"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <RadioButton
+                    android:id="@+id/idCheckout_Resposta21_Sim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/Sim"
+                    android:textColor="#000000"
+                    android:textSize="12sp" >
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/idCheckout_Resposta21_Nao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Não"
+                    android:textColor="#000000"
+                    android:textSize="12sp" >
+                </RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/idCheckout_Pergunta22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Pesquisa_Checkout_Pergunta22"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+
+            <RadioGroup
+                android:id="@+id/idCheckout_Resposta22"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <RadioButton
+                    android:id="@+id/idCheckout_Resposta22_Sim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/Sim"
+                    android:textColor="#000000"
+                    android:textSize="12sp" >
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/idCheckout_Resposta22_Nao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Não"
+                    android:textColor="#000000"
+                    android:textSize="12sp" >
+                </RadioButton>
+            </RadioGroup>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/idGondola_5_btnEnviar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Enviar"
+                    android:onClick="Enviar" />
+
+                <Button
+                    android:id="@+id/idGondola_5_btnCancelar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/idGondola_5_btnEnviar"
+                    android:text="@string/Cancelar" 
+                    android:onClick="Cancelar"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

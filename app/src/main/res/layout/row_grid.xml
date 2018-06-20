@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:clickable="false"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    >
+ 
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingRight="8dp"
+        android:contentDescription="@string/btn_login"
+        android:adjustViewBounds="false" 
+        android:layout_gravity="center"            
+        android:background="#ffffff"              
+        >
+    </ImageView>
+ 
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:gravity="center"
+        android:textColor="#000000"               
+        android:textSize="14sp" >
+    </TextView>
+ 
+</LinearLayout>

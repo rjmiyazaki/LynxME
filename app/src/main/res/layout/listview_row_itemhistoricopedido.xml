@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <TextView
+        android:id="@+id/idRowHistoricoPedidoItem_Item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Descrição do item"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/idRowHistoricoPedidoItem_Quantidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/idRowHistoricoPedidoItem_Item"
+        android:text="000"
+        android:gravity="right"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:width="25dp" />
+
+    <TextView
+        android:id="@+id/idRowHistoricoPedidoItem_ValorUnitario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idRowHistoricoPedidoItem_Item"
+        android:layout_marginLeft="10sp"
+        android:layout_toRightOf="@+id/idRowHistoricoPedidoItem_Quantidade"
+        android:text="R$00.000,00"
+        android:gravity="right"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:width="70dp" />
+
+    <TextView
+        android:id="@+id/idRowHistoricoPedidoItem_Desconto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idRowHistoricoPedidoItem_Item"
+        android:layout_marginLeft="10sp"
+        android:layout_toRightOf="@+id/idRowHistoricoPedidoItem_ValorUnitario"
+        android:text="00,00%"
+        android:gravity="right"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:width="38dp" />
+
+    <TextView
+        android:id="@+id/idRowHistoricoPedidoItem_ValorLiquido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idRowHistoricoPedidoItem_Item"
+        android:layout_marginLeft="10sp"
+        android:layout_toRightOf="@+id/idRowHistoricoPedidoItem_Desconto"
+        android:text="R$00.000,00"
+        android:gravity="right"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:width="70dp" />
+
+    <TextView
+        android:id="@+id/idRowHistoricoPedidoItem_ValorTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idRowHistoricoPedidoItem_Item"
+        android:layout_marginLeft="10sp"
+        android:layout_toRightOf="@+id/idRowHistoricoPedidoItem_ValorLiquido"
+        android:text="R$00.000,00"
+        android:gravity="right"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:width="70dp" />
+
+</RelativeLayout>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/idRowEquipamento"
+    android:background="#ffffff" >
+
+    <TextView
+        android:id="@+id/idRowEquipamento_Modelo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/idRowEquipamento_LabelGeko"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/idRowEquipamento_Modelo"
+        android:text="@string/idRowEquipamento_LabelGeko"
+        android:textColor="#000000"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/idRowEquipamento_Geko"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idRowEquipamento_Modelo"
+        android:layout_marginLeft="5sp"
+        android:layout_toRightOf="@+id/idRowEquipamento_LabelGeko"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="10sp"
+        android:width="100sp" />
+
+    <TextView
+        android:id="@+id/idRowEquipamento_LabelLogomarca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idRowEquipamento_Modelo"
+        android:layout_marginLeft="20sp"
+        android:layout_toRightOf="@+id/idRowEquipamento_Geko"
+        android:text="@string/idRowEquipamento_LabelLogomarca"
+        android:textColor="#000000"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/idRowEquipamento_Logomarca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idRowEquipamento_Modelo"
+        android:layout_marginLeft="5sp"
+        android:layout_toRightOf="@+id/idRowEquipamento_LabelLogomarca"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/idRowEquipamento_LabelVoltagem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/idRowEquipamento_LabelGeko"
+        android:text="@string/idRowEquipamento_LabelVoltagem"
+        android:textColor="#000000"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/idRowEquipamento_Voltagem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idRowEquipamento_LabelGeko"
+        android:layout_toRightOf="@+id/idRowEquipamento_LabelVoltagem"
+        android:gravity="right"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="10sp"
+        android:width="30sp" />
+
+    <TextView
+        android:id="@+id/idRowEquipamento_LabelMeta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/idRowEquipamento_LabelVoltagem"
+        android:layout_marginLeft="10sp"
+        android:layout_toRightOf="@+id/idRowEquipamento_Voltagem"
+        android:text="@string/idRowEquipamento_LabelMeta"
+        android:textColor="#000000"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/idRowEquipamento_Meta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idRowEquipamento_LabelGeko"
+        android:layout_toRightOf="@+id/idRowEquipamento_LabelMeta"
+        android:gravity="right"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="10sp"
+        android:width="30sp" />
+
+    <TextView
+        android:id="@+id/idRowEquipamento_LabelRealizado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/idRowEquipamento_LabelVoltagem"
+        android:layout_marginLeft="10sp"
+        android:layout_toRightOf="@+id/idRowEquipamento_Meta"
+        android:text="@string/idRowEquipamento_LabelRealizado"
+        android:textColor="#000000"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/idRowEquipamento_Realizado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idRowEquipamento_LabelGeko"
+        android:layout_toRightOf="@+id/idRowEquipamento_LabelRealizado"
+        android:gravity="right"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="10sp"
+        android:width="30sp" />
+    
+      <TextView
+        android:id="@+id/idRowEquipamento_LabelDiferenca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/idRowEquipamento_LabelVoltagem"
+        android:layout_marginLeft="10sp"
+        android:layout_toRightOf="@+id/idRowEquipamento_Realizado"
+        android:text="@string/idRowEquipamento_LabelDiferenca"
+        android:textColor="#000000"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/idRowEquipamento_Diferenca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idRowEquipamento_LabelGeko"
+        android:layout_toRightOf="@+id/idRowEquipamento_LabelDiferenca"
+        android:gravity="right"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="10sp"
+        android:width="30sp" />  
+
+</RelativeLayout>

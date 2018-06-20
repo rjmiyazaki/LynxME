@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\Projetos\\LynxME\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rNZ\\values-en-rNZ.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Rogerio\\.gradle\\caches\\transforms-1\\files-1.1\\android.joda-2.9.4.3.aar\\7f93effb4a5f2f7e2fc46858e20d7ee3\\res\\values-en-rNZ\\values-en-rNZ.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}

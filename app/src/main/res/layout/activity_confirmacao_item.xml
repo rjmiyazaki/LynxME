@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_confirmacao_item"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentLeft="true"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:minHeight="?attr/actionBarSize"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:background="@color/azure2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/confirmacao_item_lblItemID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Código:"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/confirmacao_item_txtItemID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="100023"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="normal" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/confirmacao_item_lblItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Descrição:"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/confirmacao_item_txtItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="Nome do produto"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="normal" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:background="@color/azure2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/confirmacao_item_lblEstoque"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Estoque:"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/confirmacao_item_txtEstoque"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="100"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="normal" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/confirmacao_item_lblValorUnitario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Valor unitário(R$):"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/confirmacao_item_txtValorUnitario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="0,00"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="normal" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:background="@color/azure2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/confirmacao_item_lblValorDesconto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Valor desconto(R$):"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/confirmacao_item_txtValorDesconto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="0,00"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="normal" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/confirmacao_item_lblValorLiquido"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Valor liquido(R$):"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/confirmacao_item_txtValorLiquido"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="0,00"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="normal" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:background="@color/azure2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/confirmacao_item_lblValorTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Valor total(R$):"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/confirmacao_item_txtValorTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="0,00"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="normal" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/confirmacao_item_lblTabela"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tabela de preço:"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="normal" />
+
+            <Spinner
+                android:id="@+id/confirmacao_item_spnTabelaPreco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13dp"
+                android:layout_alignParentRight="true" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

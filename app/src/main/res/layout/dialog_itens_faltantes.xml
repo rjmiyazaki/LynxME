@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="5dp">
+
+
+    <TextView
+        android:text="Categorias não positivadas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:id="@+id/textView" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyler_view_lista_grupo"
+        android:layout_width="match_parent"
+        android:layout_height="244dp"
+        android:scrollbars="vertical" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnContinuarFechamentoPedido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Continuar"
+            android:textColor="@color/white"
+            android:drawableLeft="@drawable/ic_payment_white_24dp" />
+
+        <Button
+            android:id="@+id/btnCancelarFechamentoPedido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_pan_tool_white_24dp"
+            android:textColor="@color/white"
+            android:text="Voltar"
+            android:layout_alignParentEnd="true"/>
+
+    </RelativeLayout>
+</LinearLayout>

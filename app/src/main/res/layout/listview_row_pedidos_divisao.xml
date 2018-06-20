@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:id="@+id/row_divisao"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/pedido_divisao_nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="DIVISÃO"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/pedido_divisao_faturamento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pedido_divisao_nome"
+        android:text="Faturamento:"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/pedido_divisao_faturamento_valor"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pedido_divisao_nome"
+        android:layout_marginLeft="60dp"
+        android:gravity="right"
+        android:text="00.000,00"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/pedido_divisao_volume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pedido_divisao_faturamento"
+        android:text="Volume:"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/pedido_divisao_volume_valor"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pedido_divisao_faturamento_valor"
+        android:layout_marginLeft="60dp"
+        android:gravity="right"
+        android:text="00.000,00"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/pedido_divisao_cobertura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pedido_divisao_volume"
+        android:text="Cobertura:"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/pedido_divisao_cobertura_valor"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pedido_divisao_volume_valor"
+        android:layout_marginLeft="60dp"
+        android:gravity="right"
+        android:text="000,00"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+</RelativeLayout>

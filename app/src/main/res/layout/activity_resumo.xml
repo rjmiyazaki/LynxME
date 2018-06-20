@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+    
+    <ListView
+        android:id="@+id/minha_lista"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#6699ff"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/idMain_txtNomeCliente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_client"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/idMain_txtVendedorID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="Vendedor 1234" />
+    </LinearLayout>    
+
+</LinearLayout>

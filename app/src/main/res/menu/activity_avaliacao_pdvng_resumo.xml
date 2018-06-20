@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/MenuAvaliacaoPDVNGResumo_Enviar"
+        android:icon="@drawable/ic_cloud_upload_white_24dp"
+        android:orderInCategory="100"
+        android:title="Refresh"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/MenuAvaliacaoPDVNGResumo_Cancelar"
+        android:icon="@drawable/ic_cancel_white_24dp"
+        android:orderInCategory="100"
+        android:title="Refresh"
+        app:showAsAction="always" />
+
+</menu>

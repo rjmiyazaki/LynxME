@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/resumoAvaliacaoPDVNG_Toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentLeft="true"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:minHeight="?attr/actionBarSize"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <RelativeLayout
+        android:id="@+id/resumoAvaliacaoPDVNG_AreaInfo"
+        android:layout_width="match_parent"
+        android:background="?attr/colorAccent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_below="@id/resumoAvaliacaoPDVNG_Toolbar">
+
+        <TextView
+            android:id="@+id/resumoAvaliacaoPDVNG_TextoNota"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="16dp"
+            android:paddingLeft="5dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="Nota" />
+
+        <TextView
+            android:id="@+id/resumoAvaliacaoPDVNG_Nota"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="16dp"
+            android:paddingRight="5dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="100,0" />
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/resumoAvaliacaoPDVNG_RecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/resumoAvaliacaoPDVNG_AreaInfo"
+        android:background="@color/white"
+        android:scrollbars="vertical" />
+
+
+
+</RelativeLayout>

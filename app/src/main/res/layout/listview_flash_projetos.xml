@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/flash_projeto_cliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Cliente"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/flash_projeto_valor_volume"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="00.000,00"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/flash_projeto_cliente" />
+
+    <TextView
+        android:id="@+id/flash_projeto_valor_antoAnterior"
+        android:layout_width="80dp"
+        android:layout_marginLeft="130dp"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="00.000,00"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/flash_projeto_cliente" />
+
+    <TextView
+        android:id="@+id/flash_projeto_valor_variacao"
+        android:layout_width="80dp"
+        android:layout_marginLeft="230dp"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="00.000,00"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/flash_projeto_cliente" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20px"
+        android:layout_below="@+id/flash_top10_valor_mesAtual"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

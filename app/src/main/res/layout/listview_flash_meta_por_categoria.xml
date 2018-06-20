@@ -1,0 +1,175 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/flash_meta_categoria_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/flash_meta_categoria_label_categoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Categoria"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/flash_meta_categoria_label_meta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/flash_meta_categoria_label_categoria"
+        android:text="Meta:"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/flash_meta_categoria_prompt_meta"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/flash_meta_categoria_label_categoria"
+        android:layout_marginLeft="60dp"
+        android:gravity="right"
+        android:text="00.000,00"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/flash_meta_categoria_label_realizado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/flash_meta_categoria_label_meta"
+        android:text="Realizado:"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/flash_meta_categoria_prompt_realizado"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/flash_meta_categoria_prompt_meta"
+        android:layout_alignStart="@+id/flash_meta_categoria_prompt_meta"
+        android:layout_alignTop="@+id/flash_meta_categoria_label_realizado"
+        android:gravity="right"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/flash_meta_categoria_label_falta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/flash_meta_categoria_label_realizado"
+        android:text="Falta:"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/flash_meta_categoria_prompt_falta"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/flash_meta_categoria_prompt_realizado"
+        android:layout_alignStart="@+id/flash_meta_categoria_prompt_realizado"
+        android:layout_alignTop="@+id/flash_meta_categoria_label_falta"
+        android:gravity="right"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/flash_meta_categoria_label_tendencia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/flash_meta_categoria_label_meta"
+        android:layout_below="@+id/flash_meta_categoria_label_categoria"
+        android:layout_marginLeft="150dp"
+        android:text="Tendência:"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/flash_meta_categoria_prompt_tendencia"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/flash_meta_categoria_label_tendencia"
+        android:layout_marginLeft="220dp"
+        android:gravity="right"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/flash_meta_categoria_label_diaria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/flash_meta_categoria_label_realizado"
+        android:layout_alignLeft="@+id/flash_meta_categoria_label_tendencia"
+        android:layout_below="@+id/flash_meta_categoria_label_tendencia"
+        android:text="Meta diária:"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/flash_meta_categoria_prompt_diaria"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/flash_meta_categoria_label_diaria"
+        android:layout_alignStart="@+id/flash_meta_categoria_prompt_tendencia"
+        android:gravity="right"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/flash_meta_categoria_label_variavel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/flash_meta_categoria_label_falta"
+        android:layout_alignLeft="@+id/flash_meta_categoria_label_diaria"
+        android:layout_below="@+id/flash_meta_categoria_label_diaria"
+        android:text="Variável:"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/flash_meta_categoria_prompt_variavel"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/flash_meta_categoria_label_variavel"
+        android:layout_alignStart="@+id/flash_meta_categoria_prompt_diaria"
+        android:gravity="right"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/flash_meta_categoria_prompt_percentual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="20px"
+        android:layout_height="20px"
+        android:layout_below="@+id/flash_meta_categoria_label_falta"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

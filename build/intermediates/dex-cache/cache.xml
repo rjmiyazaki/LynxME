@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\rogerio.DNGDOMAIN\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\dd13e36e040a25d78d826a79bbccae54\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="F:\Desenvolvimento\LynxME\app\build\intermediates\transforms\preDex\release\20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rogerio.DNGDOMAIN\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="F:\Desenvolvimento\LynxME\app\build\intermediates\transforms\preDex\release\23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rogerio.DNGDOMAIN\.gradle\caches\transforms-1\files-1.1\fab-1.0.5.aar\7676102f394e6710196d2c3be2931781\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="21b7e1533326a38d45ea24d04c6acfcbf8ea33af">
+        <dex dex="F:\Desenvolvimento\LynxME\app\build\intermediates\transforms\preDex\release\8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rogerio.DNGDOMAIN\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\21fee936215d780a76db4632f0c09906\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="F:\Desenvolvimento\LynxME\app\build\intermediates\transforms\preDex\release\21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rogerio.DNGDOMAIN\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\13c3fe9416c031b223739975811bd7f0\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="F:\Desenvolvimento\LynxME\app\build\intermediates\transforms\preDex\release\17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rogerio.DNGDOMAIN\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\d0ac19a4072f74d2ae3dfbaa7eef57d2\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="F:\Desenvolvimento\LynxME\app\build\intermediates\transforms\preDex\release\14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rogerio.DNGDOMAIN\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\4bb476cf8dd8d1d8fbab8733cd86115e\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="F:\Desenvolvimento\LynxME\app\build\intermediates\transforms\preDex\release\16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rogerio.DNGDOMAIN\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\31308f3aaf8868c3a2a8c360969c5f39\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="F:\Desenvolvimento\LynxME\app\build\intermediates\transforms\preDex\release\4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rogerio.DNGDOMAIN\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\598554db04e92d37b58e91cd24c698d2\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="F:\Desenvolvimento\LynxME\app\build\intermediates\transforms\preDex\release\18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rogerio.DNGDOMAIN\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.3.1.aar\a904f0510a1af7df937387e178ec5e3e\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="F:\Desenvolvimento\LynxME\app\build\intermediates\transforms\preDex\release\5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rogerio.DNGDOMAIN\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\8023eac89cd2ee943d5209d3cf970863\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="F:\Desenvolvimento\LynxME\app\build\intermediates\transforms\preDex\release\22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rogerio.DNGDOMAIN\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.7.9\872ec63b41181e29ad5a3723f1417356e2d2c0f2\slf4j-api-1.7.9.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="872ec63b41181e29ad5a3723f1417356e2d2c0f2">
+        <dex dex="F:\Desenvolvimento\LynxME\app\build\intermediates\transforms\preDex\release\29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rogerio.DNGDOMAIN\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\643e26cda9cb710f9d3836b7555711fc\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="F:\Desenvolvimento\LynxME\app\build\intermediates\transforms\preDex\release\7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rogerio.DNGDOMAIN\.gradle\caches\transforms-1\files-1.1\fab-1.1.3.aar\beadf2a872a21cac9fd4fdc6a435a35a\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c63896b963edd8f493b3be60505c95e53fb6ba0f">
+        <dex dex="F:\Desenvolvimento\LynxME\app\build\intermediates\transforms\preDex\release\13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rogerio.DNGDOMAIN\.gradle\caches\transforms-1\files-1.1\viewmover-1.1.1.aar\5c58c8e1de65ee65c5d863d8208246f0\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f90634457a3c1cadc3f270f8ba63d16762f353ad">
+        <dex dex="F:\Desenvolvimento\LynxME\app\build\intermediates\transforms\preDex\release\27.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rogerio.DNGDOMAIN\.gradle\caches\transforms-1\files-1.1\uitools-1.1.2.aar\612d5e34abea8ada922554e85c2d760c\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="28de8650cc1b44aa16bdcd3b1f929d09bb6924be">
+        <dex dex="F:\Desenvolvimento\LynxME\app\build\intermediates\transforms\preDex\release\28.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Desenvolvimento\LynxME\app\libs\commons-net-3.0.1.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="643cc426b9f75aa111fac0fac0e52ff5d991a337">
+        <dex dex="F:\Desenvolvimento\LynxME\app\build\intermediates\transforms\preDex\release\1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rogerio.DNGDOMAIN\.gradle\caches\transforms-1\files-1.1\android.joda-2.9.4.3.aar\fca61666ae1958b04cee3b474ab67bf5\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5476bb119ef7d9b6eb63f929324fb87ee40ee9e5">
+        <dex dex="F:\Desenvolvimento\LynxME\app\build\intermediates\transforms\preDex\release\12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rogerio.DNGDOMAIN\.gradle\caches\modules-2\files-2.1\joda-time\joda-time\2.9.4\42e5f69edd03ac35f7fb93fad004ee6e45657f36\joda-time-2.9.4-no-tzdb.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="42e5f69edd03ac35f7fb93fad004ee6e45657f36">
+        <dex dex="F:\Desenvolvimento\LynxME\app\build\intermediates\transforms\preDex\release\26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rogerio.DNGDOMAIN\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\d2dabbfa1b1ed61bc54a895ee755ef52\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="F:\Desenvolvimento\LynxME\app\build\intermediates\transforms\preDex\release\2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rogerio.DNGDOMAIN\.gradle\caches\transforms-1\files-1.1\fab-1.4.0.aar\8f39a8c2b1c814248ea730c3d50c8d82\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="594127e64b096f8e54e148680c3404e3e9c68542">
+        <dex dex="F:\Desenvolvimento\LynxME\app\build\intermediates\transforms\preDex\release\9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rogerio.DNGDOMAIN\.gradle\caches\transforms-1\files-1.1\graphview-4.0.1.aar\717326fe04b6298cd34023b4c314741c\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="37bf8de5b4f9e7e93006db783b9b3168e32e38e9">
+        <dex dex="F:\Desenvolvimento\LynxME\app\build\intermediates\transforms\preDex\release\11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rogerio.DNGDOMAIN\.gradle\caches\transforms-1\files-1.1\library-1.2.2.aar\d4fadeb176e69f8ee279dd566b266e2b\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8646b1e69dd5d923d8866dc4311859f0fbca456c">
+        <dex dex="F:\Desenvolvimento\LynxME\app\build\intermediates\transforms\preDex\release\10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rogerio.DNGDOMAIN\.gradle\caches\transforms-1\files-1.1\library-0.9.1.aar\b0deb55b4d28703072cebe5d28b4637f\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4054f18e4e7d1c148fa71ded4b17348428273e21">
+        <dex dex="F:\Desenvolvimento\LynxME\app\build\intermediates\transforms\preDex\release\24.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rogerio.DNGDOMAIN\.gradle\caches\transforms-1\files-1.1\floatingactionbutton-1.3.0.aar\fe3bb4ea6638e4c8f745f31c8a11cfea\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8c6ebb7d087d1a30bf84356bd2aecf85309fc024">
+        <dex dex="F:\Desenvolvimento\LynxME\app\build\intermediates\transforms\preDex\release\6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rogerio.DNGDOMAIN\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="F:\Desenvolvimento\LynxME\app\build\intermediates\transforms\preDex\release\25.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rogerio.DNGDOMAIN\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\9eb118aa93bc43c16e9c4a4a9acecd6c\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="F:\Desenvolvimento\LynxME\app\build\intermediates\transforms\preDex\release\15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rogerio.DNGDOMAIN\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\a8e1895e98e2d8ec3de25423e0492379\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="F:\Desenvolvimento\LynxME\app\build\intermediates\transforms\preDex\release\19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rogerio.DNGDOMAIN\.gradle\caches\transforms-1\files-1.1\library-2.8.2.aar\d291f075dbf96726fbaac890d7dbb728\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6320445a7438321cdf32f75545581821f5759cf3">
+        <dex dex="F:\Desenvolvimento\LynxME\app\build\intermediates\transforms\preDex\release\3.jar" />
+    </item>
+
+</items>

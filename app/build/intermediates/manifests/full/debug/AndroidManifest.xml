@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.lynx"
+    android:versionCode="1"
+    android:versionName="Arlequina" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="25" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.1" />
+
+    <application
+        android:debuggable="true"
+        android:icon="@drawable/icon"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="br.com.lynx.control.activity.LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="nosensor" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="br.com.lynx.control.activity.MainActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.com.lynx.control.activity.ListaClientesActivity"
+            android:parentActivityName="br.com.lynx.control.activity.MainActivity"
+            android:windowSoftInputMode="adjustPan|adjustNothing" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchble"
+                android:resource="@xml/searchble" />
+        </activity>
+        <activity
+            android:name="br.com.lynx.control.misc.ClienteVerificacaoActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.com.lynx.control.misc.PreferenciaActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.com.lynx.control.misc.Activity_OrdersMain"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.com.lynx.control.misc.Activity_MenuComm"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.com.lynx.control.misc.Comunicacao"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.com.lynx.control.misc.ListaPedidos"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.com.lynx.control.misc.ResumoPedidos"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.com.lynx.control.misc.PesquisaProduto"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.com.lynx.control.activity.ClienteDetalheActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.com.lynx.control.activity.TituloActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.com.lynx.control.misc.DetalhePedido"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.com.lynx.control.misc.HistoricoVenda"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.com.lynx.control.misc.HistoricoVendaItem"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.com.lynx.control.misc.Relatorios"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.com.lynx.control.misc.Meta"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.com.lynx.control.misc.ListaCampanha"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.com.lynx.control.misc.ListaDevolucao"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.com.lynx.control.misc.MaioresQuedas"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.com.lynx.control.activity.EquipamentoActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.com.lynx.control.misc.PesquisaActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.com.lynx.control.misc.PesquisaCheckout1A4Activity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.com.lynx.control.misc.PesquisaCheckoutMais5Activity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.com.lynx.control.misc.PesquisaPrecoActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.com.lynx.control.misc.PesquisaCheckoutActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.com.lynx.control.misc.Activity_InfoQueda"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.com.lynx.control.misc.ComparaVolume_Activity"
+            android:screenOrientation="nosensor" />
+        <activity android:name="br.com.lynx.control.activity.ClienteCampanhaActivity" />
+        <activity
+            android:name="br.com.lynx.control.misc.PesquisaEquipamentoActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.com.lynx.control.misc.PesquisaSubcanalActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.com.lynx.control.misc.PesquisaCervejaActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.com.lynx.control.activity.FlashMainActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.com.lynx.control.activity.FlashMetaCategoriaActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.com.lynx.control.activity.FlashCoberturaActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.com.lynx.control.activity.FlashDevolucaoActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.com.lynx.control.activity.FlashTop10Activity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.com.lynx.control.activity.FlashQuedasActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.com.lynx.control.activity.FlashProjetosActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.com.lynx.control.activity.FlashPrazoFemsaActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.com.lynx.control.activity.FlashArrastaoActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.com.lynx.control.activity.FlashDesafioActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.com.lynx.control.activity.FlashEquipamentoActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.com.lynx.control.activity.FlashPositivacaoActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.com.lynx.control.activity.FlashUltimasDevolucoesActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.com.lynx.control.activity.FlashBig4Activity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.com.lynx.control.activity.ConfirmaItemActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.com.lynx.control.misc.ExemploGrafico"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.com.lynx.control.activity.AcompanhamentoPedidosActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.com.lynx.control.activity.AcompanhamentoPedidosSetorActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.com.lynx.control.activity.AcompanhamentoPedidosVendedorActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.com.lynx.control.activity.ListaProdutoActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.com.lynx.control.activity.ManutencaoPedidoActivity"
+            android:screenOrientation="nosensor"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="br.com.lynx.control.activity.AvaliacaoPDVNGActivity"
+            android:screenOrientation="nosensor"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="br.com.lynx.control.activity.AvaliacaoPDVNGResumoActivity"
+            android:screenOrientation="nosensor"
+            android:windowSoftInputMode="adjustResize" />
+
+        <service android:name="br.com.lynx.misc.CommService" />
+    </application>
+
+</manifest>

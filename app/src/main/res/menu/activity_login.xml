@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_login_atualizar"
+        android:orderInCategory="100"
+        android:title="@string/menu_login_atualizar" />
+    <item
+        android:id="@+id/menu_login_inicializar"        
+        android:orderInCategory="100"
+        android:title="@string/menu_login_inicializar" />
+
+    <item
+        android:id="@+id/menu_login_copiarbd"
+        android:orderInCategory="100"
+        android:title="@string/menu_login_copiabd" />
+
+</menu>

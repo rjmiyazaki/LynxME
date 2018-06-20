@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:id="@+id/idListaCliente_layout"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/idListaCliente_txtIdentificacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/Identificacao"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/idListaCliente_txtClassificacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Identificacao"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/idListaCliente_txtIdentificacao"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/idListaCliente_txtFantasia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/idListaCliente_txtClassificacao"
+        android:gravity="left"
+        android:text="@string/Fantasia"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/idListaCliente_txtSituacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/idListaCliente_txtFantasia"
+        android:layout_alignBottom="@+id/idListaCliente_txtFantasia"
+        android:layout_alignParentRight="true"
+        android:gravity="right"
+        android:text="@string/Status"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/idListaCliente_txtTipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/idListaCliente_txtFantasia"
+        android:gravity="left"
+        android:text="@string/Tipo"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/idListaCliente_txtTelefone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/idListaCliente_txtFormaPagamento"
+        android:layout_alignBottom="@+id/idListaCliente_txtFormaPagamento"
+        android:layout_alignParentRight="true"
+        android:gravity="left"
+        android:text="@string/Telefone"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/idListaCliente_txtEndereco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/idListaCliente_txtTipo"
+        android:gravity="left"
+        android:text="@string/Endereco"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/idListaCliente_txtBairro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/idListaCliente_txtEndereco"
+        android:gravity="left"
+        android:text="@string/Bairro"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/idListaCliente_txtCidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/idListaCliente_txtBairro"
+        android:layout_alignBottom="@+id/idListaCliente_txtBairro"
+        android:layout_alignParentRight="true"
+        android:gravity="left"
+        android:text="@string/Cidade"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/idListaCliente_txtComplementoPontoReferencia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/idListaCliente_txtBairro"
+        android:text="@string/Complemento"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/idListaCliente_txtFormaPagamento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/idListaCliente_txtEndereco"
+        android:layout_toRightOf="@+id/idListaCliente_txtBairro"
+        android:gravity="left"
+        android:text="@string/CondicaoVenda"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/idListaCliente_txtAtendido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idListaCliente_txtComplementoPontoReferencia"
+        android:gravity="left"
+        android:text="Atendido"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20px"
+        android:layout_below="@+id/idListaCliente_txtAtendido"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/imgMedal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/medal" />
+
+</RelativeLayout>

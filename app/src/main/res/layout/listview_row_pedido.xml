@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#ffffff">
+    
+    <TextView
+        android:id="@+id/idRowPedido_IdentificacaoCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Identificação"
+        android:textSize="12sp" 
+        android:textColor="#000000">
+    </TextView>
+
+    <TextView
+        android:id="@+id/idRowPedido_TipoPedido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/idRowPedido_IdentificacaoCliente"              
+        android:text="Tipo Pedido"
+        android:textSize="10sp" 
+        android:textColor="#000000">
+    </TextView>
+
+    <TextView
+        android:id="@+id/idRowPedido_ValorPedido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/idRowPedido_TipoPedido"
+        android:layout_alignBottom="@+id/idRowPedido_TipoPedido"
+        android:layout_centerHorizontal="true"
+        android:gravity="left"
+        android:text="R$ 0,00"
+        android:textSize="10sp" 
+        android:textColor="#000000">
+    </TextView>
+
+    <TextView
+        android:id="@+id/idRowPedido_Situacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/idRowPedido_ValorPedido"
+        android:layout_alignBottom="@+id/idRowPedido_ValorPedido"
+        android:layout_alignParentRight="true"
+        android:gravity="right"
+        android:text="Status"
+        android:textSize="10sp" 
+        android:textColor="#000000">
+    </TextView>
+
+</RelativeLayout>

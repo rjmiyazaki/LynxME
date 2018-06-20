@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_nome">LynxME</string>
+    <string name="app_versao">2.1.53</string>
+
+    <string name="error_field_required">O campo é de preenchimento obrigatório</string>
+    <string name="error_invalid_rota">Informe um código de rota válido</string>
+
+    <!-- Strings relativas ao painel de informações -->
+    <string name="panel_info_prompt_cliente">Clientes:</string>
+    <string name="panel_info_prompt_positivacao">Positivação:</string>
+    <string name="panel_info_prompt_pedidos">Pedidos:</string>
+    <string name="panel_info_prompt_aenviar">A enviar:</string>
+    <string name="panel_info_prompt_caixas">Caixas:</string>
+    <!-- Strings relativas ao painel de informações -->
+
+    <!-- Strings relativas a tela principal -->
+    <string name="item_menu_cliente">Clientes</string>
+    <string name="item_menu_upload">Envio</string>
+    <string name="item_menu_download">Recebimento</string>
+    <string name="item_menu_flash">Flash</string>
+    <string name="item_menu_pedidos">Pedidos</string>
+    <!-- Strings relativas a tela principal -->
+
+    <string name="msgLogin">Para prosseguir, informe o código do vendedor</string>
+    <string name="app_hint">Buscar</string>
+    <string name="menu_settings">Settings</string>
+    <string name="login_titulo_lynx">Lynx</string>
+    <string name="login_titulo_sales_force">Bebidas Nova Geração</string>
+    <string name="btn_login">Login</string>
+    <string name="menu_login_inicializar">Inicializar</string>
+    <string name="menu_login_atualizar">Atualizar</string>
+    <string name="menu_login_preferencias">Preferências</string>
+    <string name="menu_login_copiabd">Copiar banco de dados</string>
+    <string name="dbpath">"/data/data/br.com.lynx/databases/LynxME"</string>
+    <string name="Orders">"Pedidos"</string>
+    <string name="Customers">"Clientes"</string>
+    <string name="Communication">"Comunicação"</string>
+    <string name="Preferences">"Preferências"</string>
+    <string name="Reports">"Relatórios"</string>
+    <string name="Identificacao">"Identificação"</string>
+    <string name="Fantasia">"Fantasia"</string>
+    <string name="Status">"Status"</string>
+    <string name="Tipo">"Tipo"</string>
+    <string name="CondicaoVenda">"Condição de venda"</string>
+    <string name="Endereco">"Endereço"</string>
+    <string name="Cidade">"Cidade"</string>
+    <string name="Bairro">"Bairro"</string>
+    <string name="Complemento">"Complemento"</string>
+    <string name="Telefone">"Telefone"</string>
+    <string name="Subcanal">"Subcanal"</string>
+    <string name="AnoAnterior">"Periodo anterior"</string>
+    <string name="AnoAtual">"Periodo atual"</string>
+    <string name="Variacao">"Variação"</string>
+    
+    <string name="app_name">LynxME - Força de vendas</string>
+    <string name="app_client">Bebidas Nova Geração Ltda</string>
+    <string name="app_title">Lynx ME</string>
+    <string name="app_subtitle">Força de vendas</string>
+    <string name="Comparativo">"Comparativo"</string>
+    <string name="app_copyright">Software desenvolvido por \n Rogério Jun Miyazaki de Souza</string>
+    <string name="app_title_version">LynxME - Versão 2.0.25</string>
+    <string name="hint_rota">Código vendedor</string>
+    <string name="btnLogin_caption">Login</string>
+    
+    <string name="idPrincipal_LabelCliente">Clientes:</string>
+    <string name="idPrincipal_LabelPositivacao">Positivação:</string>
+    <string name="idPrincipal_LabelCaixas">Caixas:</string>
+    <string name="idPrincipal_LabelNumeroPedidos">Pedidos:</string>
+    <string name="idPrincipal_LabelPedidosNaoEnviados">A Enviar:</string>
+    
+    <string name="idCliente_LabelComparativo">COMPARATIVO</string>
+    <string name="idCliente_LabelPeriodoAnterior">ANTERIOR:</string>
+    <string name="idCliente_LabelPeriodoAtual">ATUAL:</string>
+    <string name="idCliente_LabelVariacao">VARIAÇÃO:</string>
+    
+    <string name="idRowEquipamento_LabelGeko">Geko:</string>
+    <string name="idRowEquipamento_LabelLogomarca">Logomarca:</string>
+    <string name="idRowEquipamento_LabelVoltagem">Voltagem:</string>
+    <string name="idRowEquipamento_LabelMeta">Meta:</string>
+    <string name="idRowEquipamento_LabelRealizado">Realizado:</string>
+    <string name="idRowEquipamento_LabelDiferenca">Diferença:</string>
+    
+    <string name="Sim">Sim</string>
+    <string name="Não">Não</string>
+    <string name="Enviar">Enviar</string>
+    <string name="Cancelar">Cancelar</string>
+    <string name="Confirmar">Confirmar</string>
+    
+    <string name="Numero_Checkouts">Qual a quantidade de checkouts do cliente?</string>
+    
+    <string name="Gondola_Chocolate">Gôndola Chocolate</string>
+    <string name="Gondola_Biscoito">Gôndola Biscoito</string>
+    <string name="Gondola_PB">Gôndola PBs</string>
+    <string name="Gondola_Sobremesa">Gôndola Sobremesa</string>
+    <string name="Gondola_Gomas">Gôndola Gomas e Drops</string>
+    
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta1">1 - O item BIS AO LEITE 126G está presente?</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta2">2 - O item BIS LAKA 126G está presente?</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta3">3 - O item LACTA SONHO DE VALSA 90G está presente?</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta4">4 - O item LACTA OREO 90G está presente?</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta5">5 - O item DIAMANTE NEGRO 150G está presente?</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta6">6 - O item LAKA 150G está presente?</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta7">7 - O item LACTA AO LEITE 150G está presente?</string>
+
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta8">8 - Informe o preço das Tabuas LACTA 150G.</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta9">9 - Informe o preço das Tabuas NESTLE 160G.</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta10">10 - Informe o preço das Tabuas GAROTO 150G.</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta11">11 - Informe o preço do BIS XTRA.</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta12">12 - Informe o preço do KIT KAT 45G.</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta13">13 - Informe o preço do BIS BANDEJA.</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta14">14 - Informe o preço do HERSHEYS MAIS BANDEJA 115G.</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta15">15 - Informe o preço da CAIXA DE SUCESSOS LACTA.</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta16">16 - Informe o preço da CAIXA DE BOMBONS SORTIDOS GAROTO.</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta17">17 - Informe o preço da CAIXA DE ESPECIALIDADES NESTLÉ.</string>
+        
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta18">18 - Quantidade de Display de chão de TÁBUAS LACTA 150G.</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta19">19 - Quantidade de outros pontos extras de TÁBUAS LACTA 150G.</string>
+    
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta20">20 - Quantidade de Display de chão de BIS BANDEJA.</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta21">21 - Quantidade de outros pontos extras de BIS BANDEJA.</string>
+    
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta22">22 - Quantidade de Display de chão de CANDY BAR(5stars/Lancy).</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta23">23 - Quantidade de outros pontos extras de CANDY BAR(5stars/Lancy).</string>
+    
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta24">24 - Quantidade de Display de chão de CAIXA DE SUCESSOS LACTA.</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta25">25 - Quantidade de outros pontos extras de CAIXA DE SUCESSOS LACTA.</string>
+    
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta26">26 - O item CLUB SOCIAL ORIGINAL 6 unidades está presente?</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta27">27 - O item CLUB SOCIAL INTEGRAL 6 unidades está presente?</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta28">28 - O item OREO FLOW PACK 90G está presente?</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta29">29 - O item OREO MILKSHAKE MOR 90G está presente?</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta30">30 - O item OREO BAUNILHA MULTIPACK 140G está presente?</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta31">31 - O item OREO BAUNILHA 90G está presente?</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta32">32 - O item BELVITA MEL E CACAU está presente?</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta33">33 - O item CLUB SOCIAL PIZZA está presente?</string>
+    
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta34">34 - Informe o preço da TRAKINAS.</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta35">35 - Informe o preço do PASSATEMPO RECHEADO.</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta36">36 - Informe o preço do CLUB SOCIAL ORIGINAL.</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta37">37 - Informe o preço do CLUB SOCIAL INTEGRAL.</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta38">38 - Informe o preço do PITSTOP SEM RECHEIO.</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta39">39 - Informe o preço do OREO 90G.</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta40">40 - Informe o preço do NEGRESCO.</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta41">41 - Informe o preço da BELVITA.</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta42">42 - Informe o preço da NESFIT DOCE.</string>
+        
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta43">43 - Quantidade de Display de chão de TRAKINAS.</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta44">44 - Quantidade de outros pontos extras de TRAKINAS.</string>
+   
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta45">45 - Quantidade de Display de chão de CLUB SOCIAL.</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta46">46 - Quantidade de outros pontos extras de CLUB SOCIAL.</string>
+    
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta47">47 - Quantidade de Display de chão de OREO.</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta48">48 - Quantidade de outros pontos extras de OREO.</string>
+
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta49">49 - Quantidade de Display de chão de BELVITA.</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta50">50 - Quantidade de outros pontos extras de BELVITA.</string>
+    
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta51">51 - O item TANG LARANJA está presente?</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta52">52 - O item TANG ABACAXI está presente?</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta53">53 - O item TANG UVA está presente?</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta54">54 - O item TANG MARACUJA está presente?</string>
+
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta55">55 - Informe o preço do TANG.</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta56">56 - Informe o preço do FRESH.</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta57">57 - Informe o preço do CLIGHT.</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta58">58 - Informe o preço do MID.</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta59">59 - Informe o preço do FRISKO.</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta60">60 - Informe o preço do TRINK.</string>
+        
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta61">61 - Quantidade de Display de chão de TANG.</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta62">62 - Quantidade de outros pontos extras de TANG.</string>
+
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta63">63 - Quantidade de Display de chão de FRESH.</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta64">64 - Quantidade de outros pontos extras de FRESH.</string>
+
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta65">65 - Quantidade de Display de chão de CLIGHT.</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta66">66 - Quantidade de outros pontos extras de CLIGHT.</string>
+    
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta67">67 - O item FERMENTO ROYAL 100G está presente?</string>
+    <string name="Pesquisa_Gondola_Checkout_1_4_Pergunta68">68 - O item GELATINA ROYAL MORANGO está presente?</string>
+    
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta1">1 - O item BIS AO LEITE 126G está presente?</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta2">2 - O item BIS LAKA 126G está presente?</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta3">3 - O item LACTA SONHO DE VALSA 90G está presente?</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta4">4 - O item LACTA OREO 90G está presente?</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta5">5 - O item DIAMANTE NEGRO 150G está presente?</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta6">6 - O item LAKA 150G está presente?</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta7">7 - O item LACTA AO LEITE 150G está presente?</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta8">8 - O item LAKA OREO 150G está presente?</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta9">9 - O item BUBBLY AO LEITE 110G está presente?</string>
+    
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta10">10 - Informe o preço das Tabuas LACTA 150G.</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta11">11 - Informe o preço das Tabuas NESTLE 160G.</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta12">12 - Informe o preço das Tabuas GAROTO 150G.</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta13">13 - Informe o preço do BIS XTRA.</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta14">14 - Informe o preço do KIT KAT 45G.</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta15">15 - Informe o preço do BIS BANDEJA.</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta16">16 - Informe o preço do HERSHEYS MAIS BANDEJA 115G.</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta17">17 - Informe o preço da CAIXA DE SUCESSOS LACTA.</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta18">18 - Informe o preço da CAIXA DE BOMBONS SORTIDOS GAROTO.</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta19">19 - Informe o preço da CAIXA DE ESPECIALIDADES NESTLÉ.</string>
+        
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta20">20 - Quantidade de Display de chão de TÁBUAS LACTA 150G.</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta21">21 - Quantidade de outros pontos extras de TÁBUAS LACTA 150G.</string>
+    
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta22">22 - Quantidade de Display de chão de BIS BANDEJA.</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta23">23 - Quantidade de outros pontos extras de BIS BANDEJA.</string>
+    
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta24">24 - Quantidade de Display de chão de CANDY BAR(5stars/Lancy).</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta25">25 - Quantidade de outros pontos extras de CANDY BAR(5stars/Lancy).</string>
+    
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta26">26 - Quantidade de Display de chão de CAIXA DE SUCESSOS LACTA.</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta27">27 - Quantidade de outros pontos extras de CAIXA DE SUCESSOS LACTA.</string>
+    
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta28">28 - O item CLUB SOCIAL PIZZA está presente?</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta29">29 - O item CLUB SOCIAL ORIGINAL está presente?</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta30">30 - O item CLUB SOCIAL INTEGRAL está presente?</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta31">31 - O item OREO FLOW PACK 90G está presente?</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta32">32 - O item OREO BAUNILHA 90G está presente?</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta33">33 - O item BELVITA MEL E CACAU está presente?</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta34">34 - O item CLUB SOCIAL QUEIJO está presente?</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta35">35 - O item BELVITA LEITE COM AVEIA está presente?</string>
+    
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta36">36 - Informe o preço da TRAKINAS.</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta37">37 - Informe o preço do PASSATEMPO RECHEADO.</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta38">38 - Informe o preço do CLUB SOCIAL ORIGINAL.</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta39">39 - Informe o preço do CLUB SOCIAL INTEGRAL.</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta40">40 - Informe o preço do PITSTOP SEM RECHEIO.</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta41">41 - Informe o preço do OREO 90G.</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta42">42 - Informe o preço do NEGRESCO.</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta43">43 - Informe o preço da BELVITA.</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta44">44 - Informe o preço da NESFIT DOCE.</string>
+        
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta45">45 - Quantidade de Display de chão de TRAKINAS.</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta46">46 - Quantidade de outros pontos extras de TRAKINAS.</string>
+   
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta47">47 - Quantidade de Display de chão de CLUB SOCIAL.</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta48">48 - Quantidade de outros pontos extras de CLUB SOCIAL.</string>
+    
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta49">49 - Quantidade de Display de chão de OREO.</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta50">50 - Quantidade de outros pontos extras de OREO.</string>
+
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta51">51 - Quantidade de Display de chão de BELVITA.</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta52">52 - Quantidade de outros pontos extras de BELVITA.</string>
+    
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta53">53 - O item TANG LARANJA está presente?</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta54">54 - O item TANG ABACAXI está presente?</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta55">55 - O item TANG UVA está presente?</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta56">56 - O item TANG MARACUJA está presente?</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta57">57 - O item CLIGHT LIMONADA está presente?</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta58">58 - O item TANG LIMÃO está presente?</string>
+    
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta59">59 - Informe o preço do TANG.</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta60">60 - Informe o preço do FRESH.</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta61">61 - Informe o preço do CLIGHT.</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta62">62 - Informe o preço do MID.</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta63">63 - Informe o preço do FRISKO.</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta64">64 - Informe o preço do TRINK.</string>
+        
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta65">65 - Quantidade de Display de chão de TANG.</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta66">66 - Quantidade de outros pontos extras de TANG.</string>
+
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta67">67 - Quantidade de Display de chão de FRESH.</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta68">68 - Quantidade de outros pontos extras de FRESH.</string>
+
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta69">69 - Quantidade de Display de chão de CLIGHT.</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta70">70 - Quantidade de outros pontos extras de CLIGHT.</string>
+    
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta71">71 - O item FERMENTO ROYAL 100G está presente?</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta72">72 - O item GELATINA SEM SABOR está presente?</string>
+    <string name="Pesquisa_Gondola_Checkout_5_Pergunta73">73 - O item GELATINA ROYAL MORANGO está presente?</string>
+    
+    <string name="Pesquisa__Checkout_Preco_Pergunta1">1 - Informe o preço do item HALLS 10.</string>
+    <string name="Pesquisa__Checkout_Preco_Pergunta2">2 - Informe o preço do item HALLS SOFT.</string>
+    <string name="Pesquisa__Checkout_Preco_Pergunta3">3 - Informe o preço do item TRIDENT 5s.</string>
+    <string name="Pesquisa__Checkout_Preco_Pergunta4">4 - Informe o preço do item BOMBOM SONHO DE VALSA ou OURO BRANCO.</string>
+    <string name="Pesquisa__Checkout_Preco_Pergunta5">5 - Informe o preço do item LACTA 5STARS.</string>
+    <string name="Pesquisa__Checkout_Preco_Pergunta6">6 - Informe o preço do item TABLETINHO 25G.</string>
+    <string name="Pesquisa__Checkout_Preco_Pergunta7">7 - Informe o preço do item TABLETE RECHEADO.</string>
+    <string name="Pesquisa__Checkout_Preco_Pergunta8">8 - Informe o preço do item FREGELLS 10s.</string>
+    <string name="Pesquisa__Checkout_Preco_Pergunta9">9 - Informe o preço do item TIC TAC 16G.</string>
+    <string name="Pesquisa__Checkout_Preco_Pergunta10">10 - Informe o preço do item MENTHOS STICK BALA MASTIGÁVEL.</string>
+    <string name="Pesquisa__Checkout_Preco_Pergunta11">11 - Informe o preço do item MENTHOS 3G.</string>
+    <string name="Pesquisa__Checkout_Preco_Pergunta12">12 - Informe o preço do item BOMBOM SERENATA DE AMOR.</string>
+    <string name="Pesquisa__Checkout_Preco_Pergunta13">13 - Informe o preço do item SNICKERS.</string>
+    
+    <string name="Pesquisa_Checkout_Pergunta1">1 - Há pelos menos um produto MONDELEZ em exposição?</string>
+    <string name="Pesquisa_Checkout_Pergunta2">2 - O item TRIDENT BASE 05 MENTA está presente?</string>
+    <string name="Pesquisa_Checkout_Pergunta3">3 - O item TRIDENT BASE 05 HORTELA está presente?</string>
+    <string name="Pesquisa_Checkout_Pergunta4">4 - O item TRIDENT BASE 05 MELANCIA está presente?</string>
+    <string name="Pesquisa_Checkout_Pergunta5">5 - O item TRIDENT FRESH INTENSE 5s está presente?</string>
+    <string name="Pesquisa_Checkout_Pergunta6">6 - O item TRIDENT FRESH CEREJA está presente?</string>
+    <string name="Pesquisa_Checkout_Pergunta7">7 - O item TRIDENT MIX CANELA E HORTELÃ está presente?</string>
+    <string name="Pesquisa_Checkout_Pergunta8">8 - O item TRIDENT MIX TANGERINA LARANJA está presente?</string>
+    <string name="Pesquisa_Checkout_Pergunta9">9 - O item HALLS LARANJA está presente?</string>
+    <string name="Pesquisa_Checkout_Pergunta10">10 - O item HALLS LIMÃO MENTA está presente?</string>
+    <string name="Pesquisa_Checkout_Pergunta11">11 - O item HALLS EXTRA FORTE está presente?</string>
+    <string name="Pesquisa_Checkout_Pergunta12">12 - O item HALLS MELANCIA está presente?</string>
+    <string name="Pesquisa_Checkout_Pergunta13">13 - O item HALLS CEREJA está presente?</string>
+    <string name="Pesquisa_Checkout_Pergunta14">14 - O item BOMBOM SONHO DE VALSA está presente?</string>
+    <string name="Pesquisa_Checkout_Pergunta15">15 - O item BOMBOM OURO BRANCO UNITÁRIO está presente?</string>
+    <string name="Pesquisa_Checkout_Pergunta16">16 - O item BIS XTRA está presente?</string>
+    <string name="Pesquisa_Checkout_Pergunta17">17 - O item DIAMANTE NEGRO 20G está presente?</string>
+    <string name="Pesquisa_Checkout_Pergunta18">18 - O item LACTA 5Star está presente?</string>
+    <string name="Pesquisa_Checkout_Pergunta19">19 - Tem expositor MONDELEZ ACRILICO?</string>
+    <string name="Pesquisa_Checkout_Pergunta20">20 - Tem expositor MONDELEZ BOLA?</string>
+    <string name="Pesquisa_Checkout_Pergunta21">21 - Tem expositor MONDELEZ CUBETA?</string>
+    <string name="Pesquisa_Checkout_Pergunta22">22 - Tem expositor CHECKSTAND MONDELEZ?</string>
+</resources>

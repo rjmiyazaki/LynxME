@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_flash_devolucao"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentLeft="true"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:minHeight="?attr/actionBarSize"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent" >
+
+        <TextView
+            android:id="@+id/textView_Motivo"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="Motivo"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/textView_Quantidade"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="Qtd."
+            android:layout_marginLeft="150dp"
+            android:textStyle="bold"
+            android:gravity="right"
+            android:textColor="@color/white"
+            android:layout_alignParentTop="true" />
+
+        <TextView
+            android:id="@+id/textView_Caixas"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="Caixas"
+            android:layout_marginLeft="200dp"
+            android:textStyle="bold"
+            android:gravity="right"
+            android:textColor="@color/white"
+            android:layout_alignParentTop="true" />
+
+        <TextView
+            android:id="@+id/textView_Participacao"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="%"
+            android:layout_marginLeft="300dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_alignParentTop="true" />
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyler_view_flash_devolucao"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar_flash_devolucao"
+        android:background="@color/white"
+        android:scrollbars="vertical" />
+
+</LinearLayout>

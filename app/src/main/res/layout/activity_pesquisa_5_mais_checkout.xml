@@ -1,0 +1,1731 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".control.misc.PesquisaCheckoutMais5Activity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/login_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/idGondola_Titulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#0000cd"
+                    android:text="@string/Gondola_Chocolate"
+                    android:textColor="#ffffff"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta1"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <RadioGroup
+                    android:id="@+id/idGondola_5_Chk_Resposta1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta1_Sim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/Sim"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta1_Nao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Não"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta2"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <RadioGroup
+                    android:id="@+id/idGondola_5_Chk_Resposta2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta2_Sim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/Sim"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta2_Nao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Não"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta3"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <RadioGroup
+                    android:id="@+id/idGondola_5_Chk_Resposta3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta3_Sim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/Sim"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta3_Nao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Não"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta4"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <RadioGroup
+                    android:id="@+id/idGondola_5_Chk_Resposta4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta4_Sim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/Sim"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta4_Nao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Não"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta5"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <RadioGroup
+                    android:id="@+id/idGondola_5_Chk_Resposta5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta5_Sim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/Sim"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta5_Nao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Não"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta6"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <RadioGroup
+                    android:id="@+id/idGondola_5_Chk_Resposta6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta6_Sim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/Sim"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta6_Nao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Não"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta7"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <RadioGroup
+                    android:id="@+id/idGondola_5_Chk_Resposta7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta7_Sim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/Sim"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta7_Nao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Não"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta8"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <RadioGroup
+                    android:id="@+id/idGondola_5_Chk_Resposta8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta8_Sim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/Sim"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta8_Nao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Não"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta9"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <RadioGroup
+                    android:id="@+id/idGondola_5_Chk_Resposta9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta9_Sim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/Sim"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta9_Nao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Não"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta10"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idGondola_5_Chk_Resposta10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp"></EditText>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta11"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idGondola_5_Chk_Resposta11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp"></EditText>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta12"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idGondola_5_Chk_Resposta12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp"></EditText>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta13"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idGondola_5_Chk_Resposta13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp"></EditText>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta14"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idGondola_5_Chk_Resposta14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp"></EditText>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta15"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idGondola_5_Chk_Resposta15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp"></EditText>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta16"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idGondola_5_Chk_Resposta16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp"></EditText>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta17"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idGondola_5_Chk_Resposta17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp"></EditText>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta18"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idGondola_5_Chk_Resposta18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp"></EditText>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta19"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idGondola_5_Chk_Resposta19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp"></EditText>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta20"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idGondola_5_Chk_Resposta20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp"></EditText>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta21"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idGondola_5_Chk_Resposta21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp"></EditText>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta22"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idGondola_5_Chk_Resposta22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta23"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idGondola_5_Chk_Resposta23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta24"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idGondola_5_Chk_Resposta24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta25"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idGondola_5_Chk_Resposta25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta26"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idGondola_5_Chk_Resposta26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta27"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idGondola_5_Chk_Resposta27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/idGondola_TituloBiscoito"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#0000cd"
+                    android:text="@string/Gondola_Biscoito"
+                    android:textColor="#ffffff"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta28"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <RadioGroup
+                    android:id="@+id/idGondola_5_Chk_Resposta28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta28_Sim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/Sim"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta28_Nao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Não"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta29"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <RadioGroup
+                    android:id="@+id/idGondola_5_Chk_Resposta29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta29_Sim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/Sim"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta29_Nao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Não"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta30"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <RadioGroup
+                    android:id="@+id/idGondola_5_Chk_Resposta30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta30_Sim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/Sim"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta30_Nao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Não"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta31"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <RadioGroup
+                    android:id="@+id/idGondola_5_Chk_Resposta31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta31_Sim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/Sim"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta31_Nao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Não"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta32"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <RadioGroup
+                    android:id="@+id/idGondola_5_Chk_Resposta32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta32_Sim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/Sim"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta32_Nao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Não"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta33"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <RadioGroup
+                    android:id="@+id/idGondola_5_Chk_Resposta33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta33_Sim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/Sim"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta33_Nao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Não"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta34"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <RadioGroup
+                    android:id="@+id/idGondola_5_Chk_Resposta34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta34_Sim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/Sim"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta34_Nao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Não"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta35"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <RadioGroup
+                    android:id="@+id/idGondola_5_Chk_Resposta35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta35_Sim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/Sim"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta35_Nao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Não"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta36"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta36"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idGondola_5_Chk_Resposta36"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp"></EditText>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta37"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta37"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idGondola_5_Chk_Resposta37"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp"></EditText>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta38"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta38"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idGondola_5_Chk_Resposta38"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp"></EditText>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta39"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta39"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idGondola_5_Chk_Resposta39"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp"></EditText>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta40"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idGondola_5_Chk_Resposta40"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp"></EditText>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta41"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idGondola_5_Chk_Resposta41"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp"></EditText>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta42"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idGondola_5_Chk_Resposta42"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp"></EditText>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta43"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idGondola_5_Chk_Resposta43"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp"></EditText>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta44"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idGondola_5_Chk_Resposta44"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp"></EditText>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta45"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta45"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idGondola_5_Chk_Resposta45"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp"></EditText>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta46"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta46"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idGondola_5_Chk_Resposta46"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp"></EditText>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta47"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta47"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idGondola_5_Chk_Resposta47"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp"></EditText>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta48"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta48"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idGondola_5_Chk_Resposta48"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp"></EditText>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta49"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta49"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idGondola_5_Chk_Resposta49"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta50"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta50"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idGondola_5_Chk_Resposta50"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta51"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta51"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idGondola_5_Chk_Resposta51"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta52"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta52"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idGondola_5_Chk_Resposta52"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/idGondola_TituloPB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#0000cd"
+                    android:text="@string/Gondola_PB"
+                    android:textColor="#ffffff"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta53"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta53"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <RadioGroup
+                    android:id="@+id/idGondola_5_Chk_Resposta53"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta53_Sim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/Sim"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta53_Nao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Não"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta54"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta54"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <RadioGroup
+                    android:id="@+id/idGondola_5_Chk_Resposta54"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta54_Sim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/Sim"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta54_Nao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Não"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta55"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta55"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <RadioGroup
+                    android:id="@+id/idGondola_5_Chk_Resposta55"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta55_Sim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/Sim"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta55_Nao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Não"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta56"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta56"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <RadioGroup
+                    android:id="@+id/idGondola_5_Chk_Resposta56"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta56_Sim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/Sim"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta56_Nao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Não"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta57"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta57"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <RadioGroup
+                    android:id="@+id/idGondola_5_Chk_Resposta57"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta57_Sim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/Sim"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta57_Nao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Não"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta58"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta58"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <RadioGroup
+                    android:id="@+id/idGondola_5_Chk_Resposta58"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta58_Sim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/Sim"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta58_Nao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Não"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta59"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta59"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idGondola_5_Chk_Resposta59"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp"></EditText>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta60"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta60"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idGondola_5_Chk_Resposta60"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp"></EditText>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta61"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta61"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idGondola_5_Chk_Resposta61"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp"></EditText>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta62"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta62"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idGondola_5_Chk_Resposta62"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp"></EditText>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta63"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta63"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idGondola_5_Chk_Resposta63"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp"></EditText>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta64"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta64"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idGondola_5_Chk_Resposta64"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp"></EditText>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta65"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta65"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idGondola_5_Chk_Resposta65"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp"></EditText>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta66"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta66"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idGondola_5_Chk_Resposta66"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta67"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta67"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idGondola_5_Chk_Resposta67"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta68"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta68"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idGondola_5_Chk_Resposta68"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta69"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta69"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idGondola_5_Chk_Resposta69"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta70"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta70"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idGondola_5_Chk_Resposta70"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/idGondola_TituloSobremesa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#0000cd"
+                    android:text="@string/Gondola_Sobremesa"
+                    android:textColor="#ffffff"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta71"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta71"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <RadioGroup
+                    android:id="@+id/idGondola_5_Chk_Resposta71"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta71_Sim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/Sim"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta71_Nao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Não"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta72"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta72"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <RadioGroup
+                    android:id="@+id/idGondola_5_Chk_Resposta72"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta72_Sim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/Sim"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta72_Nao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Não"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/idGondola_5_Chk_Pergunta73"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa_Gondola_Checkout_5_Pergunta73"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <RadioGroup
+                    android:id="@+id/idGondola_5_Chk_Resposta73"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta73_Sim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/Sim"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/idGondola_5_Chk_Resposta73_Nao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Não"
+                        android:textColor="#000000"
+                        android:textSize="12sp"></RadioButton>
+                </RadioGroup>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/idGondola_5_btnEnviar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="Enviar"
+                        android:text="@string/Enviar" />
+
+                    <Button
+                        android:id="@+id/idGondola_5_btnCancelar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/idGondola_5_btnEnviar"
+                        android:onClick="Cancelar"
+                        android:text="@string/Cancelar" />
+                </RelativeLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <TextView
+        android:id="@+id/idRowDevolucao_Produto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="Produto"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/idRowDevolucao_LabelData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/idRowDevolucao_Produto"
+        android:text="Data:"
+        android:textColor="#000000"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/idRowDevolucao_Data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idRowDevolucao_Produto"
+        android:layout_marginLeft="2sp"
+        android:layout_toRightOf="@+id/idRowDevolucao_LabelData"
+        android:gravity="right"
+        android:text="00/00/0000"
+        android:textColor="#000000"
+        android:textSize="10sp"
+        android:width="60sp" />
+
+    <TextView
+        android:id="@+id/idRowDevolucao_LabelFaturado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idRowDevolucao_Produto"
+        android:layout_marginLeft="10sp"
+        android:layout_toRightOf="@+id/idRowDevolucao_Data"
+        android:text="Faturado:"
+        android:textColor="#000000"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/idRowDevolucao_Faturado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idRowDevolucao_Produto"
+        android:layout_marginLeft="2sp"
+        android:layout_toRightOf="@+id/idRowDevolucao_LabelFaturado"
+        android:gravity="right"
+        android:text="000"
+        android:textColor="#000000"
+        android:textSize="10sp"
+        android:width="30sp" />
+
+    <TextView
+        android:id="@+id/idRowDevolucao_LabelDevolvido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idRowDevolucao_Produto"
+        android:layout_marginLeft="10sp"
+        android:layout_toRightOf="@+id/idRowDevolucao_Faturado"
+        android:text="Devolvido:"
+        android:textColor="#000000"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/idRowDevolucao_Devolvido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idRowDevolucao_Produto"
+        android:layout_marginLeft="2sp"
+        android:layout_toRightOf="@+id/idRowDevolucao_LabelDevolvido"
+        android:gravity="right"
+        android:text="000"
+        android:textColor="#000000"
+        android:textSize="10sp"
+        android:width="30sp" />
+    
+    <TextView
+        android:id="@+id/idRowDevolucao_Motivo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/idRowDevolucao_Devolvido"
+        android:text="Motivo"
+        android:textColor="#000000"
+        android:textSize="10sp" />    
+
+
+</RelativeLayout>

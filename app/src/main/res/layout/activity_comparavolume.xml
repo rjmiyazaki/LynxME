@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1E90FF"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/idComparaVolume_Cliente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Identificação do cliente"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/idComparaVolume_Subcanal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subcanal"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/idComparaVolume_MaioresQuedasLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/idComparaVolume_RotuloMaioresQuedas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#cc0000"
+            android:text="Indicativo de queda"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/idComparaVolume_RotuloVolumeAnterior"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:text="Volume anterior"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/idComparaVolume_VolumeAnterior"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/idComparaVolume_RotuloVolumeAnterior"
+            android:layout_alignParentRight="true"
+            android:text="000"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/idComparaVolume_RotuloVolumeAtual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/idComparaVolume_RotuloVolumeAnterior"
+            android:text="Volume atual"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/idComparaVolume_VolumeAtual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/idComparaVolume_RotuloVolumeAtual"
+            android:layout_alignParentRight="true"
+            android:text="000"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/idComparaVolume_RotuloDiferenca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/idComparaVolume_RotuloVolumeAtual"
+            android:text="Diferença"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/idComparaVolume_Diferenca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/idComparaVolume_RotuloDiferenca"
+            android:layout_alignParentRight="true"
+            android:text="000"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/idComparaVolume_Top10Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/idComparaVolume_RotuloTop10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#cc0000"
+            android:text="Cliente TOP 10"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/idComparaVolume_RotuloVolumeAnteriorTop10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:text="Volume médio"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/idComparaVolume_VolumeAnteriorTop10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/idComparaVolume_RotuloVolumeAnteriorTop10"
+            android:layout_alignParentRight="true"
+            android:text="000"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/idComparaVolume_RotuloVolumeAtualTop10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/idComparaVolume_RotuloVolumeAnteriorTop10"
+            android:text="Volume atual"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/idComparaVolume_VolumeAtualTop10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/idComparaVolume_RotuloVolumeAtualTop10"
+            android:layout_alignParentRight="true"
+            android:text="000"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/idComparaVolume_RotuloDiferencaTop10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/idComparaVolume_RotuloVolumeAtualTop10"
+            android:text="Diferença"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/idComparaVolume_DiferencaTop10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/idComparaVolume_RotuloDiferencaTop10"
+            android:layout_alignParentRight="true"
+            android:text="000"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</LinearLayout>

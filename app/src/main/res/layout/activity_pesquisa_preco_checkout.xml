@@ -1,0 +1,289 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".control.misc.PesquisaPrecoActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/login_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/idCheckout_Preco_Titulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#0000cd"
+                    android:text="Pesquisa de preço no checkout"
+                    android:textColor="#ffffff"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/idCheckout_Preco_Pergunta1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa__Checkout_Preco_Pergunta1"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idCheckout_Preco_Resposta1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp"></EditText>
+
+                <TextView
+                    android:id="@+id/idCheckout_Preco_Pergunta2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa__Checkout_Preco_Pergunta2"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idCheckout_Preco_Resposta2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp"></EditText>
+
+                <TextView
+                    android:id="@+id/idCheckout_Preco_Pergunta3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa__Checkout_Preco_Pergunta3"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idCheckout_Preco_Resposta3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp"></EditText>
+
+                <TextView
+                    android:id="@+id/idCheckout_Preco_Pergunta4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa__Checkout_Preco_Pergunta4"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idCheckout_Preco_Resposta4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp"></EditText>
+
+                <TextView
+                    android:id="@+id/idCheckout_Preco_Pergunta5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa__Checkout_Preco_Pergunta5"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idCheckout_Preco_Resposta5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp"></EditText>
+
+                <TextView
+                    android:id="@+id/idCheckout_Preco_Pergunta6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa__Checkout_Preco_Pergunta6"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idCheckout_Preco_Resposta6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp"></EditText>
+
+                <TextView
+                    android:id="@+id/idCheckout_Preco_Pergunta7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa__Checkout_Preco_Pergunta7"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idCheckout_Preco_Resposta7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp"></EditText>
+
+                <TextView
+                    android:id="@+id/idCheckout_Preco_Pergunta8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa__Checkout_Preco_Pergunta8"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idCheckout_Preco_Resposta8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp"></EditText>
+
+                <TextView
+                    android:id="@+id/idCheckout_Preco_Pergunta9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa__Checkout_Preco_Pergunta9"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idCheckout_Preco_Resposta9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp"></EditText>
+
+                <TextView
+                    android:id="@+id/idCheckout_Preco_Pergunta10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa__Checkout_Preco_Pergunta10"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idCheckout_Preco_Resposta10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp"></EditText>
+
+                <TextView
+                    android:id="@+id/idCheckout_Preco_Pergunta11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa__Checkout_Preco_Pergunta11"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idCheckout_Preco_Resposta11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp"></EditText>
+
+                <TextView
+                    android:id="@+id/idCheckout_Preco_Pergunta12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa__Checkout_Preco_Pergunta12"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idCheckout_Preco_Resposta12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp"></EditText>
+
+                <TextView
+                    android:id="@+id/idCheckout_Preco_Pergunta13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pesquisa__Checkout_Preco_Pergunta13"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/idCheckout_Preco_Resposta13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:textSize="12sp"></EditText>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/idGondola_5_btnEnviar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="Enviar"
+                        android:text="@string/Enviar" />
+
+                    <Button
+                        android:id="@+id/idGondola_5_btnCancelar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/idGondola_5_btnEnviar"
+                        android:onClick="Cancelar"
+                        android:text="@string/Cancelar" />
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+</LinearLayout>

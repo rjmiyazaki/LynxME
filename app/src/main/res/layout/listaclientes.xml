@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1E90FF"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/idListaCliente_Titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lista de clientes"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#4682B4"
+            android:paddingTop="5dp" >
+
+            <TextView
+                android:id="@+id/idListaCliente_LabelCliente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="@string/idPrincipal_LabelCliente"
+                android:textColor="#ffffff"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idListaCliente_NumeroClientes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/idListaCliente_LabelCliente"
+                android:gravity="right"
+                android:text="000"
+                android:textColor="#ffffff"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:width="30sp" />
+
+            <TextView
+                android:id="@+id/idListaCliente_LabelPositivacao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/idListaCliente_NumeroClientes"
+                android:text="@string/idPrincipal_LabelPositivacao"
+                android:textColor="#ffffff"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idListaCliente_Positivacao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10sp"
+                android:layout_toRightOf="@+id/idListaCliente_LabelPositivacao"
+                android:gravity="right"
+                android:text="00/000%"
+                android:textColor="#ffffff"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:width="50sp" />
+
+            <TextView
+                android:id="@+id/idListaCliente_LabelCaixas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="30dp"
+                android:layout_toRightOf="@+id/idListaCliente_Positivacao"
+                android:text="@string/idPrincipal_LabelCaixas"
+                android:textColor="#ffffff"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idListaCliente_Caixas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_toRightOf="@+id/idListaCliente_LabelCaixas"
+                android:gravity="right"
+                android:text="000"
+                android:textColor="#ffffff"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:width="30sp" />
+
+            <TextView
+                android:id="@+id/idListaCliente_LabelNumeroPedidos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/idListaCliente_LabelCliente"
+                android:text="@string/idPrincipal_LabelNumeroPedidos"
+                android:textColor="#ffffff"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idListaCliente_NumeroPedidos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/idListaCliente_NumeroClientes"
+                android:layout_marginLeft="10sp"
+                android:layout_toRightOf="@+id/idListaCliente_LabelCliente"
+                android:gravity="right"
+                android:text="000"
+                android:textColor="#ffffff"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:width="30sp" />
+
+            <TextView
+                android:id="@+id/idListaCliente_LabelPedidosNaoEnviados"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/idListaCliente_LabelPositivacao"
+                android:layout_marginLeft="20sp"
+                android:layout_toRightOf="@+id/idListaCliente_NumeroClientes"
+                android:gravity="left"
+                android:text="@string/idPrincipal_LabelPedidosNaoEnviados"
+                android:textColor="#ffffff"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idListaCliente_NumeroPedidosAEnviar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/idListaCliente_Positivacao"
+                android:layout_marginLeft="10sp"
+                android:layout_toRightOf="@+id/idListaCliente_LabelPositivacao"
+                android:gravity="right"
+                android:text="000"
+                android:textColor="#ffffff"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:width="50sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/idListaCliente_edtPesquisa"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/textfield_activated_holo_light"
+            android:hint="Pesquisar por..."
+            android:inputType="textFilter" >
+        </EditText>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </ListView>
+
+</LinearLayout>

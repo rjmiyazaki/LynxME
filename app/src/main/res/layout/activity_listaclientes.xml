@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".control.activity.ListaClientesActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tb_listaclientes"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentLeft="true"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:minHeight="?attr/actionBarSize"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyler_view_lista_cliente"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/inc_tb_bottom"
+        android:layout_below="@+id/tb_listaclientes"
+        android:background="@color/white"
+        android:scrollbars="vertical" />
+
+    <include
+        android:id="@+id/inc_tb_bottom"
+        layout="@layout/panel_info_bottom" />
+</RelativeLayout>

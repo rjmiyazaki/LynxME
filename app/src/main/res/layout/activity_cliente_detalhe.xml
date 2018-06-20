@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/clienteDetalhe_Toolbar"
+        android:elevation="4dp"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_alignParentLeft="true"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <LinearLayout
+        android:id="@+id/layout_clienteInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/clienteDetalhe_Toolbar"
+        android:background="#1E90FF"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#F5F5F5"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <TextView
+                android:id="@+id/idCliente_RazaoSocial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="RAZAO SOCIAL"
+                android:textColor="#808080"
+                android:textSize="12sp"
+                android:width="200sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idCliente_CodigoCliente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/idCliente_RazaoSocial"
+                android:text="999999"
+                android:textColor="#808080"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idCliente_FormaPagamento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/idCliente_CodigoCliente"
+                android:text="999999"
+                android:textColor="#808080"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idCliente_LabelComparativo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="40dp"
+                android:text="@string/idCliente_LabelComparativo"
+                android:textColor="#808080"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idCliente_LabelPeriodoAnterior"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/idCliente_LabelComparativo"
+                android:layout_alignLeft="@+id/idCliente_LabelComparativo"
+                android:layout_marginTop="2dp"
+                android:text="@string/idCliente_LabelPeriodoAnterior"
+                android:textColor="#808080"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idCliente_ComparativoPeriodoAnterior"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/idCliente_LabelPeriodoAnterior"
+                android:width="50sp"
+                android:gravity="right"
+                android:layout_marginRight="3dp"
+                android:text="000"
+                android:layout_alignParentRight="true"
+                android:textColor="#808080"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idCliente_LabelPeriodoAtual"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/idCliente_LabelPeriodoAnterior"
+                android:layout_alignLeft="@+id/idCliente_LabelComparativo"
+                android:layout_marginTop="2dp"
+                android:text="@string/idCliente_LabelPeriodoAtual"
+                android:textColor="#808080"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idCliente_ComparativoPeriodoAtual"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/idCliente_LabelPeriodoAtual"
+                android:layout_centerHorizontal="true"
+                android:width="50sp"
+                android:gravity="right"
+                android:text="000"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="3dp"
+                android:textColor="#808080"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idCliente_LabelVariacao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/idCliente_LabelPeriodoAtual"
+                android:layout_alignLeft="@+id/idCliente_LabelComparativo"
+                android:layout_marginTop="2dp"
+                android:text="@string/idCliente_LabelVariacao"
+                android:textColor="#808080"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idCliente_ComparativoVariacao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/idCliente_LabelVariacao"
+                android:width="50sp"
+                android:gravity="right"
+                android:text="000"
+                android:textColor="#808080"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="3dp"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/clienteDetalhe_customGrid"
+        android:layout_below="@+id/layout_clienteInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:numColumns="2" />
+
+    <LinearLayout
+        android:id="@+id/idCliente_ExtraInfoLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/clienteDetalhe_customGrid"
+        android:layout_alignParentBottom="true"
+        android:background="#cc0000"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/idCliente_NotaPDVNG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nota da última avaliação: "
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/idCliente_Condicao1x1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cliente com condição 1x1"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/idCliente_AtendidoTelevendas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cliente atendindo pelo televendas"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/idCliente_RepasseREFPET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cliente com REPASSE REFPET"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/idCliente_RepasseLS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cliente com REPASSE LS"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>
