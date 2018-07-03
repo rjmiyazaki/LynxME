@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\Projetos\\LynxME\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sl-rSI\\values-sl-rSI.xml",
+            "outputFile": "/home/rogerio/Desenvolvimento/LynxME/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sl-rSI/values-sl-rSI.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Rogerio\\.gradle\\caches\\transforms-1\\files-1.1\\android.joda-2.9.4.3.aar\\7f93effb4a5f2f7e2fc46858e20d7ee3\\res\\values-sl-rSI\\values-sl-rSI.xml",
+                    "source": "/home/rogerio/.gradle/caches/transforms-1/files-1.1/android.joda-2.9.4.3.aar/a6185d527453bf4c03cbaf24b2c77c16/res/values-sl-rSI/values-sl-rSI.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\Projetos\\LynxME\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-az\\values-az.xml",
+            "outputFile": "/home/rogerio/Desenvolvimento/LynxME/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-az/values-az.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Rogerio\\.gradle\\caches\\transforms-1\\files-1.1\\android.joda-2.9.4.3.aar\\7f93effb4a5f2f7e2fc46858e20d7ee3\\res\\values-az\\values-az.xml",
+                    "source": "/home/rogerio/.gradle/caches/transforms-1/files-1.1/android.joda-2.9.4.3.aar/a6185d527453bf4c03cbaf24b2c77c16/res/values-az/values-az.xml",
                     "from": {
                         "startLines": "2,6,10,14,18,22,26,30,34,38,42,46,50,54,58,62,66,70,74,78,79,80",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

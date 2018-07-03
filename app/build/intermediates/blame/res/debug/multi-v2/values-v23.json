@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\Projetos\\LynxME\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "/home/rogerio/Desenvolvimento/LynxME/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Rogerio\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\d9bc76e2f6c4f589e381af3d745e838b\\res\\values-v23\\values-v23.xml",
+                    "source": "/home/rogerio/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/20aa89896f32224953d58da5ffbd252f/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -15,7 +15,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Rogerio\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-v7-25.3.1.aar\\bded142e4137958a358abdadc85e81b2\\res\\values-v23\\values-v23.xml",
+                    "source": "/home/rogerio/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.3.1.aar/21d1ea48713339328a111f1bcc773c4d/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

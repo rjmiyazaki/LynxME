@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\Projetos\\LynxME\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "outputFile": "/home/rogerio/Desenvolvimento/LynxME/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Rogerio\\.gradle\\caches\\transforms-1\\files-1.1\\library-2.8.2.aar\\becbfcd2d3db5025462a0181a8448f73\\res\\values-v11\\values.xml",
+                    "source": "/home/rogerio/.gradle/caches/transforms-1/files-1.1/library-2.8.2.aar/8947834a9d3873b8e731387e88f8be84/res/values-v11/values.xml",
                     "from": {
                         "startLines": "4,10,14,19,25,29,38,43,47,51",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Rogerio\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\d9bc76e2f6c4f589e381af3d745e838b\\res\\values-v11\\values-v11.xml",
+                    "source": "/home/rogerio/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/20aa89896f32224953d58da5ffbd252f/res/values-v11/values-v11.xml",
                     "from": {
                         "startLines": "2,8,14,20,26,32,38,39,43,47,48,52,56,57,61,66,71,76,78,80,81,82,136,191",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
